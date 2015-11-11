@@ -1,0 +1,15 @@
+{
+  "name": "embeddednodejs-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render_links.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Mulder",
+  "license": "MIT",
+  "dependencies": {
+    "findit": "^2.0.0",
+    "underscore": "^1.8.3"
+  }
+}

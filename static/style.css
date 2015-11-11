@@ -10,53 +10,47 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font: 500 14px/21px 'Helvetica Neue', Helvetica, Arials;
+  background-color: #f8f8f8;
+}
+.main {
+  min-height: 400px;
+  background-color: #f8f8f8;
+}
+.center {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 1150px) {
+  .center {
+    background: url('images/buch_ecke.png') no-repeat right top;
+    min-height: 960px;
+  }
+}
 
-    body{
-      font:500 14px/21px 'Helvetica Neue', Helvetica, Arials;
-    }
+.photo {
+  margin: 0 auto;
+  width: 400px;
+}
 
-    .photo {
-      background-color: #cccccc;
-      clear: both;
-      width: 600px;
-      min-height: 450px;
-      margin: 0 auto;
-      padding: 40px;
-    }
-
-    .photo img {
-      margin: 0 auto;
-    }
-
-    .left {
-      width: 300px;
-      float: left;
-    }
-
-    .right {
-      width: 300px;
-      float: right;
-    }
-    
 footer {
   height: 100px;
   width: 80%;
   margin: 0 auto;
 }
-
 header {
   background-color: white;
   border-bottom: 1px solid #cdc9c9;
-  height: 125px;
+  height: 130px;
   text-align: center;
   overflow: hidden;
 }
-
 header h1 {
-  font-size: 43px;
-  padding-top: 20px;
+  font-size: 50px;
 }
-
 nav {
   color: white;
   margin: 0 auto;
@@ -81,6 +75,10 @@ nav a,
 nav a:visited {
   text-decoration: none;
   color: #8b8989;
+}
+.active {
+  color: black;
+  border-bottom: 3px solid black;
 }
 nav a:hover {
   color: black;
@@ -124,8 +122,8 @@ nav .contact a:hover {
   }
 }
 nav .contact li {
-  width: 200px;
-  font-size: 20px;
+  width: 60px;
+  font-size: 60px;
   font-family: 'entypo-social';
 }
 .chapter {
@@ -187,7 +185,7 @@ nav .contact li {
   }
 }
 article img {
-  height: 480px;
+	text-align: center;
 }
 article h1 {
   font-size: 30px;
@@ -390,7 +388,6 @@ footer .sales a:visited {
   width: 70%;
   margin: 0 auto;
 }
-
 .divshot {
   margin-bottom: 10px;
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Node.js on Embedded Systems</title>
+  <title>Node.js for Embedded Systems</title>
   <link rel="stylesheet" href="style.css">
   <meta name="keywords" content="javascript,embedded,controllers,programmable,led,microcontroller,pcb,starter,kit,arduino,nano,mega,uno,led,bits,bytes">
   
@@ -13,14 +13,14 @@
 <body>
 <header>
   <span class="site">
-    <h1>Node.js on Embedded Systems</h1>
+    <h1>Node.js for Embedded Systems</h1>
   </span>
 
   <nav>
     <ul>
       <li><a href="/">The Book</a></li>
-      <li><a href="/chapters.html">Chapters</a></li>
-      <li><a href="#">Code Repository</a></li>
+      <li><a class="active" href="/chapters.html">Chapters</a></li>
+      <li><a href="https://github.com/embeddednodejs">Code Repository</a></li>
     </ul>
  
    <ul class="contact">
@@ -29,23 +29,89 @@
 
 </header>
 
-<h2>The Book</h2>
+<article class="overview chapter">
+	<h1>Chapter 1: Connecting Worlds</h1>
+	<section class="addinfo">
+		<ul>
+			<li><a href="http://radar.oreilly.com/2015/06/the-smartest-way-to-program-smart-things-node-js.html">The smartest way to program smart things</a></li>
+			<li><a href="https://blog.jscrambler.com/javascript-the-perfect-language-for-the-internet-of-things-iot/">JavaScript - The perfect language for the Internet of Things</a></li>
+			<li><a href="http://cdn.oreillystatic.com/en/assets/1/event/127/Programming%20the%20Internet%20of%20Things%20with%20Node_js%20and%20HTML5%20Presentation.pdf">Slides IoT workshop at SolidCon by Michael McCool</a></li>
+			<li><a href="http://www.voodootikigod.com/nodebots-the-rise-of-js-robotics/">Nodebots - the rise of JS robotics</a></li>
+		</ul>
+	</section>
+</article>
 
-<ul>
-	<li>Connecting Worlds</li>
-	<li>Arduino and JavaScript</li>
-	<li>Node.js on Embedded Linux</li>
-	<li>Components for Prototyping</li>
-	<li>Node.js Libraries for Hardware</li>
-	<li>Building Web Servers</li>
-	<li>MVC with JavaScript</li>
-	<li>Motion with JavaScript</li>
-	<li>Entering the Cloud</li>
-	<li>Embedding JavaScript</li>
+<article class="overview chapter">
+	<h1>Chapter 2: Arduino and JavaScript</h1>
+	<section class="addinfo">
+	   <h3>Firmata</h3>
+	   <ul>
+  	     <li><a href="https://github.com/firmata/protocol">Firmata repository @ github</a></li>
+	   </ul>
+	</section>
+</article>
+<article class="overview chapter">
+ <h1>Chapter 3: Node.js on Embedded Linux</h1>
+     <section class="addinfo">
+    <h3>General Linux  </h3>
+    <ul>
+                     <li><a href="http://elinux.org/Main_Page">Embedded Linux Wiki</a></li>
+                           <li>irc.freenode: #edev</li>
+                    </ul>
+  </section>
+     <section class="addinfo">
+    <h3>Intel Edison  </h3>
+    <ul>
+                     <li><a href="http://www.intel.com/support/edison/sb/CS-035262.htm">Upgrade Firmware Intel Edison</a></li>
+                             <li><a href="http://rwx.io/blog/2015/08/16/edison-wifi-config/">Edison wifi config</a></li>
+                             <li><a href="http://rexstjohn.com/getting-wi-fi-with-intel-edison/">Getting Wi-Fi with Intel Edison</a></li>
+                             <li><a href="http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide">GPIO Mapping on Intel Edison</a></li>
+                  </ul>
+  </section>
+</article>
+<article class="overview chapter">
+	<h1>Chapter 4: Components for Prototyping</h1>
 
-</ul>
+	<section class="addinfo">
+		<h3>Resources</h3>
+		<ul>
+			<li><a href="http://www.seeedstudio.com/wiki/Main_Page">Seeedstudio Wiki incl. Grove kit details</a></li>
+			<li><a href="https://rheingoldheavy.com/i2c-and-spi-education-shield-functionality-overview/">I2C Education Shield</a></li>
+			<li><a href="http://www.mysensors.org/">MySensors components search engine</a></li>
+		</ul>
+</article>
+<article class="overview chapter">
+	<h1>Chapter 5: Node.js Libraries for Hardware</h1>
 
+	<section class="addinfo">
+        <ul>
+          <li><a href="http://johnny-five.io/">Johnny-5</a></li>  
+          <li><a href="http://cylonjs.com/">Cylon.js</a></li>
+          <li><a href="https://github.com/intel-iot-devkit/mraa">MRAA</a></li>
+          <li><a href="https://github.com/voodootikigod/node-serialport">serialport</a></li>
+        </ul>
+        </section>
+</article>
+<article class="overview chapter">
+	<h1>Chapter 6: Building Web Servers</h1>
+</article>
+<article class="overview chapter">
+	<h1>Chapter 7: MVC with JavaScript</h1>
+</article>
+<article class="overview chapter">
+	<h1>Chapter 8: Motion with JavaScript</h1>
+</article>
+<article class="overview chapter">
+	<h1>Chapter 9: Entering the Cloud</h1>
+</article>
+<article class="overview chapter">
+	<h1>Chapter 10: Advanced Connectivity</h1>
+</article>
+
+
+<section class="common lastword">
 <p>Copyright (c) 2015, Patrick Mulder </p>
+</section>
 
 
 <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");

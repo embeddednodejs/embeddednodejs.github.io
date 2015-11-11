@@ -1,0 +1,48 @@
+{
+  "name": "Chapter 4: Components for Prototyping",
+  "resources": [
+    {
+      "name": "Grove Kit",
+      "links": [
+        {
+          "name": "Seeedstudio Wiki incl. Grove kit details",
+          "link": "http://www.seeedstudio.com/wiki/Main_Page"
+        },
+        {
+          "name": "Seeedstudio Base shield",
+          "link": "http://www.seeedstudio.com/depot/Base-Shield-V2-p-1378.html?cPath=98_16"
+        },
+        {
+          "name": "Grove Kit components",
+          "link": "http://www.seeedstudio.com/wiki/Grove_System"
+        },
+        {
+          "name": "Thumb Joystick",
+          "link": "http://www.seeedstudio.com/wiki/Grove_-_Thumb_Joystick"
+        }
+      ]
+    },
+    {
+      "name": "Breakout Boards and Shields",
+      "links": [
+        {
+          "name": "I2C Education Shield",
+          "link": "https://rheingoldheavy.com/i2c-and-spi-education-shield-functionality-overview/"
+        }
+      ]
+    },
+    {
+      "name": "Tindie, Ebay, Alibaba",
+      "links": [
+        {
+          "name": "MySensors components search engine",
+          "link": "http://www.mysensors.org/"
+        },
+        {
+          "name": "Grove Hat for Arduino Nano",
+          "link": "https://www.tindie.com/products/imrehg/grovehat-for-arduino-nano/"
+        }
+      ]
+    }
+  ]
+}

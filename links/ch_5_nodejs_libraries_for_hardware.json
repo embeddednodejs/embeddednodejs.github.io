@@ -1,0 +1,40 @@
+{
+  "name": "Chapter 5: Node.js Libraries for Hardware",
+  "resources": [
+    {
+      "name": "Abstractions for boards and components",
+      "links": [
+        {
+          "name": "Johnny-5",
+          "link": "http://johnny-five.io/"
+        },
+        {
+          "name": "Cylon.js",
+          "link": "http://cylonjs.com/"
+        }
+      ]
+    },
+    {
+      "name": "Low-Level libraries",
+      "links": [
+        {
+          "name": "MRAA",
+          "link": "https://github.com/intel-iot-devkit/mraa"
+        }
+      ]
+    },
+    {
+      "name": "Protocols",
+      "links": [
+        {
+          "name": "Node serialport library",
+          "link": "https://github.com/voodootikigod/node-serialport"
+        },
+        {
+          "name": "Tessel and Communication Protocols",
+          "link": "https://tessel.io/blog/108840925797/a-web-developers-guide-to-communication-protocols"
+        }
+      ]
+    }
+  ]
+}

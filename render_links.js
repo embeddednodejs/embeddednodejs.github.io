@@ -40,3 +40,12 @@ console.log('</article>');
 console.log('<article class="overview chapter">');
 renderLinks('./links/ch_3_nodejs_on_embedded_linux.json');
 console.log('</article>');
+
+console.log('<article class="overview chapter">');
+renderLinks('./links/ch_4_components_for_prototyping.json');
+console.log('</article>');
+
+console.log('<article class="overview chapter">');
+renderLinks('./links/ch_5_nodejs_libraries_for_hardware.json');
+console.log('</article>');
+

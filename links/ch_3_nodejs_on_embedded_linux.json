@@ -18,15 +18,20 @@
       "links": [
         {
           "name": "Download latest Yocto Image",
-          "link": "http://www.intel.com/support/edison/sb/CS-035262.htm",
+          "link": "https://downloadcenter.intel.com/download/25028",
           "description": "Many Edison boards come with an old Yocto image. This makes configuration of Wifi and connectiviy harder than on newer images. Learn how to change this here."
+        },
+        {
+          "name": "Flash latest Yocto Image",
+          "link": "http://www.intel.com/support/edison/sb/CS-035262.htm",
+          "description": ""
         },
         {
           "name": "Getting started with the board",
           "link": "http://fab-lab.eu/edison/"
         },
         {
-          "name": "Wifi Getting Started",
+          "name": "Wifi getting Started",
           "link": "http://rexstjohn.com/getting-wi-fi-with-intel-edison/"
         },
         {

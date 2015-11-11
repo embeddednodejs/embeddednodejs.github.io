@@ -20,6 +20,9 @@ body {
   min-height: 400px;
   background-color: #f8f8f8;
 }
+.center-text {
+  text-align: center;
+}
 .center {
   margin: 0;
   padding: 0;

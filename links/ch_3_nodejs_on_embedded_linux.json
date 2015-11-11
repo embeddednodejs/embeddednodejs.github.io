@@ -22,6 +22,10 @@
           "description": "Many Edison boards come with an old Yocto image. This makes configuration of Wifi and connectiviy harder than on newer images. Learn how to change this here."
         },
         {
+          "name": "Getting started with the board",
+          "link": "http://fab-lab.eu/edison/"
+        },
+        {
           "name": "Getting Started Wifi",
           "link": "http://rexstjohn.com/getting-wi-fi-with-intel-edison/"
         },

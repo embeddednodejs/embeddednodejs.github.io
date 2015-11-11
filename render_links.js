@@ -29,4 +29,5 @@ var renderLinks = function(file) {
   }));
 }
 
+renderLinks('./links/ch_1_connecting_worlds.json');
 renderLinks('./links/ch_3_nodejs_on_embedded_linux.json');

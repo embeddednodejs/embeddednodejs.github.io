@@ -1,21 +1,39 @@
 {
-"name": "Chapter 3: Node.js on Embedded Linux",
-"resources": 
-[
-  {"name": "General Linux",
-   "links": [
-    {"name": "Embedded Linux Wiki", "link": "http://elinux.org/Main_Page"},
-    {"name": "irc.freenode: #edev"}
-   ]
-  },
-  {"name": "Intel Edison",
-   "links": [
-  { "name": "Download latest Yocto Image", "link": "http://www.intel.com/support/edison/sb/CS-035262.htm", "description": "Many Edison boards come with an old Yocto image. This makes configuration of Wifi and connectiviy harder than on newer images. Learn how to change this here." },
-{"name": "Getting Started Wifi", "link": "http://rexstjohn.com/getting-wi-fi-with-intel-edison/"},
-{"name": "Tricks for Wifi config", "link": "http://rwx.io/blog/2015/08/16/edison-wifi-config/"},
-{"name": "GPIO Mapping on Intel Edison", "link": "http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide"}
-]
-  }
-
-]
+  "name": "Chapter 3: Node.js on Embedded Linux",
+  "resources": [
+    {
+      "name": "General Linux",
+      "links": [
+        {
+          "name": "Embedded Linux Wiki",
+          "link": "http://elinux.org/Main_Page"
+        },
+        {
+          "name": "irc.freenode: #edev"
+        }
+      ]
+    },
+    {
+      "name": "Intel Edison",
+      "links": [
+        {
+          "name": "Download latest Yocto Image",
+          "link": "http://www.intel.com/support/edison/sb/CS-035262.htm",
+          "description": "Many Edison boards come with an old Yocto image. This makes configuration of Wifi and connectiviy harder than on newer images. Learn how to change this here."
+        },
+        {
+          "name": "Getting Started Wifi",
+          "link": "http://rexstjohn.com/getting-wi-fi-with-intel-edison/"
+        },
+        {
+          "name": "Tricks for Wifi config",
+          "link": "http://rwx.io/blog/2015/08/16/edison-wifi-config/"
+        },
+        {
+          "name": "GPIO Mapping on Intel Edison",
+          "link": "http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide"
+        }
+      ]
+    }
+  ]
 }

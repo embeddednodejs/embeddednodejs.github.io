@@ -29,5 +29,14 @@ var renderLinks = function(file) {
   }));
 }
 
+console.log('<article class="overview chapter">');
 renderLinks('./links/ch_1_connecting_worlds.json');
+console.log('</article>');
+
+console.log('<article class="overview chapter">');
+renderLinks('./links/ch_2_arduino_and_javascript.json');
+console.log('</article>');
+
+console.log('<article class="overview chapter">');
 renderLinks('./links/ch_3_nodejs_on_embedded_linux.json');
+console.log('</article>');

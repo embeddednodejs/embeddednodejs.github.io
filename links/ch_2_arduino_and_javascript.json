@@ -1,0 +1,14 @@
+{
+  "name": "Chapter 2: Arduino and JavaScript",
+  "resources": [
+    {
+      "name": "Firmata",
+      "links": [
+        {
+          "name": "Firmata repository @ github",
+          "link": "https://github.com/firmata/protocol"
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,24 @@
       ]
     },
     {
+      "name": "Raspberry Pi",
+      "links": [
+        {
+	  "name": "Installing Node.js",
+	  "link": "https://learn.adafruit.com/node-embedded-development/installing-node-dot-js"
+	}
+      ]
+    },
+    {
+      "name": "Beaglebone",
+      "links": [
+        {
+	  "name": "BoneScript overview",
+	  "link": "http://elinux.org/Beagleboard:BoneScript"
+	  }
+      ]
+    },
+    {
       "name": "Intel Edison",
       "links": [
         {

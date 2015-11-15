@@ -1,8 +1,14 @@
 {
-  "name": "Chapter 7: Motion with JavaScript",
+  "name": "Chapter 8: Motion with JavaScript",
   "resources": [
-    {"name": "", "links": []}
+    {
+      "name": "Nodebots",
+      "links": [
+        {
+          "name": "Blog post about Nodebots day event",
+          "link": "http://munich-arduino.de/2015/08/28/nodebotsday/"
+        }
+      ]
+    }
   ]
-
-
 }

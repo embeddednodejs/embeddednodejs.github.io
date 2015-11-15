@@ -17,18 +17,22 @@
       "name": "Raspberry Pi",
       "links": [
         {
-	  "name": "Installing Node.js",
-	  "link": "https://learn.adafruit.com/node-embedded-development/installing-node-dot-js"
-	}
+          "name": "Install Node.js on Debian based systems",
+          "link": "https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions"
+        },
+        {
+          "name": "Installing Node.js",
+          "link": "https://learn.adafruit.com/node-embedded-development/installing-node-dot-js"
+        }
       ]
     },
     {
       "name": "Beaglebone",
       "links": [
         {
-	  "name": "BoneScript overview",
-	  "link": "http://elinux.org/Beagleboard:BoneScript"
-	  }
+          "name": "BoneScript overview",
+          "link": "http://elinux.org/Beagleboard:BoneScript"
+        }
       ]
     },
     {
@@ -59,6 +63,10 @@
         {
           "name": "GPIO Mapping on Intel Edison",
           "link": "http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide"
+        },
+        {
+          "name": "Configure Bluetooth",
+          "link": "http://rexstjohn.com/configure-intel-edison-for-bluetooth-le-smart-development/"
         }
       ]
     }

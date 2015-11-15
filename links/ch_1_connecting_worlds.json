@@ -23,6 +23,15 @@
       ]
     },
     {
+      "name": "Projects and showcases",
+      "links": [
+        {
+          "name": "Intel Edison project showcases (Japan)",
+          "link": "http://edison-lab.jp/"
+        }
+      ]
+    },
+    {
       "name": "Node.js",
       "links": [
         {

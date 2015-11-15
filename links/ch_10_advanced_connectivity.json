@@ -1,0 +1,35 @@
+{
+  "name": "Advanced Connectivity",
+  "resources": [
+    {
+      "name": "Bluetooth",
+      "links": [
+        {
+          "name": "Arduino Lib for nRF8001",
+          "link": "https://github.com/RedBearLab/nRF8001/"
+        },
+        {
+          "name": "Noble",
+          "link": "https://github.com/sandeepmistry/noble"
+        },
+        {
+          "name": "Bleno",
+          "link": "https://github.com/sandeepmistry/bleno"
+        }
+      ]
+    },
+    {
+      "name": "Web of Things",
+      "links": [
+        {
+          "name": "Web of Things (WoT)",
+          "link": "https://github.com/w3c/wot"
+        },
+        {
+          "name": "WoT.js",
+          "link": "https://github.com/hollobit/wot.js/tree/master"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,10 @@
         {
           "name": "Firmata repository @ github",
           "link": "https://github.com/firmata/protocol"
+        },
+        {
+          "name": "Interfacing Arduino with other software - Forum Arduino",
+          "link": "http://forum.arduino.cc/index.php?board=12.0"
         }
       ]
     }

@@ -1,0 +1,14 @@
+{
+  "name": "Chapter 7: Web Interfaces for Things",
+  "resources": [
+    {
+      "name": "",
+      "links": [
+        {
+          "name": "P5.js",
+          "link": "http://p5js.org/"
+        }
+      ]
+    }
+  ]
+}

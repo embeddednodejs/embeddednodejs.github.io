@@ -1,0 +1,22 @@
+{
+  "name": "Chapter 9: Entering the Cloud",
+  "resources": [
+    {
+      "name": "MQTT",
+      "links": [
+        {
+          "name": "mqtt.js @npmjs.org",
+          "link": "https://www.npmjs.com/package/mqtt"
+        },
+        {
+          "name": "Mosca",
+          "link": "https://www.npmjs.com/package/mosca"
+        },
+        {
+          "name": "HiveMQ Broker",
+          "link": "http://www.hivemq.com/try-out/"
+        }
+      ]
+    }
+  ]
+}

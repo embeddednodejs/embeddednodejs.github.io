@@ -1,0 +1,35 @@
+{
+  "name": "Building Servers",
+  "resources": [
+    {
+      "name": "WebSockets",
+      "links": [
+        {
+          "name": "The WebSockets protocol (RFC6455)",
+          "link": "https://tools.ietf.org/html/rfc6455"
+        },
+        {
+          "name": "Websocket stream",
+          "link": "https://github.com/maxogden/websocket-stream"
+        }
+      ]
+    },
+    {
+      "name": "Modules",
+      "links": [
+        {
+          "name": "ecstatic",
+          "link": "https://www.npmjs.com/package/ecstatic"
+        },
+        {
+          "name": "dnode",
+          "link": "https://www.npmjs.com/package/dnode"
+        },
+        {
+          "name": "Shoe",
+          "link": "https://www.npmjs.com/package/shoe"
+        }
+      ]
+    }
+  ]
+}

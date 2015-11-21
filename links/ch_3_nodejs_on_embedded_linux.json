@@ -69,6 +69,15 @@
           "link": "http://rexstjohn.com/configure-intel-edison-for-bluetooth-le-smart-development/"
         }
       ]
+    },
+    {
+      "name": "Other Boards",
+      "links": [
+        {
+	  "name": "Nogs.cc",
+	  "link": "http://www.nogs.cc/"
+        }
+      ]
     }
   ]
 }

@@ -15,7 +15,11 @@
         {
           "name": "Bleno",
           "link": "https://github.com/sandeepmistry/bleno"
-        }
+        },
+	{
+	  "name": "Getting started on Tessel",
+	  "link": "https://github.com/tessel/t1-docs/blob/master/tutorials/ble-getting-started.md"
+	}
       ]
     },
     {

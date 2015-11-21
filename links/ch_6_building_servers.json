@@ -38,6 +38,10 @@
           "name": "ecstatic",
           "link": "https://www.npmjs.com/package/ecstatic"
         },
+	{
+	  "name": "body",
+	  "link": "https://www.npmjs.com/package/body"
+        },
         {
           "name": "dnode",
           "link": "https://www.npmjs.com/package/dnode"
@@ -45,7 +49,11 @@
         {
           "name": "Shoe",
           "link": "https://www.npmjs.com/package/shoe"
-        }
+        },
+	{
+	  "name": "Blog post by @substack about modules for web apps",
+	  "link": "http://substack.net/some_libraries_I_use_to_build_webapps"
+	}
       ]
     }
   ]

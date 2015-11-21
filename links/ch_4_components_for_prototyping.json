@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "Tindie, Ebay, Alibaba",
+      "name": "Shops",
       "links": [
         {
           "name": "MySensors components search engine",
@@ -41,7 +41,11 @@
         {
           "name": "Grove Hat for Arduino Nano",
           "link": "https://www.tindie.com/products/imrehg/grovehat-for-arduino-nano/"
-        }
+        },
+	{
+	  "name": "ControlEverything",
+	  "link": "https://www.controleverything.com/products"
+	}
       ]
     }
   ]

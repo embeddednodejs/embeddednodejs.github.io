@@ -27,6 +27,15 @@
       ]
     },
     {
+      "name": "OpenWRT",
+      "links": [
+        {
+          "name": "Bundle JXcore for OpenWRT (ARM, mipsel) Memory: 16Mb+",
+          "link": "https://github.com/jxcore/jxcore/blob/master/doc/OpenWrt_Compile.md"
+        }
+      ]
+    },
+    {
       "name": "Beaglebone",
       "links": [
         {

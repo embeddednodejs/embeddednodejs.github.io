@@ -28,6 +28,10 @@
         {
           "name": "Intel Edison project showcases (Japan)",
           "link": "http://edison-lab.jp/"
+        },
+        {
+          "name": "Thali - Framework for connected devices",
+          "link": "http://thaliproject.org/"
         }
       ]
     },
@@ -37,6 +41,15 @@
         {
           "link": "https://nodejs.org/api/fs.html",
           "name": "File System API Docs"
+        }
+      ]
+    },
+    {
+      "name": "JXcore",
+      "links": [
+        {
+          "link": "https://github.com/jxcore/jxcore/blob/master/doc/native/Embedding_Basics.md",
+          "name": "Basics of embedding JXcore"
         }
       ]
     }

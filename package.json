@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "findit": "^2.0.0",
+    "jsonstream": "^1.0.3",
+    "trumpet": "^1.7.2",
     "underscore": "^1.8.3"
   }
 }

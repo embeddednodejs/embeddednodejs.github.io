@@ -2,6 +2,19 @@
   "name": "Chapter 2: Arduino and JavaScript",
   "resources": [
     {
+      "name": "Espruino",
+      "links": [
+        {
+	  "name": "Quick Start",
+	  "link": "http://www.espruino.com/Quick+Start"
+        },
+        {
+	  "name": "Tutorials",
+	  "link": "http://www.espruino.com/Tutorials"
+	}
+      ]
+    },
+    {
       "name": "Firmata",
       "links": [
         {

@@ -2,8 +2,19 @@ var fs = require('fs');
 var findit = require('findit');
 var _ = require('underscore');
 
+
+function slugify(text)
+{
+  return text.toString().toLowerCase()
+    .replace(/\s+/g, '-')           // Replace spaces with -
+    .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+    .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+    .replace(/^-+/, '')             // Trim - from start of text
+    .replace(/-+$/, '');            // Trim - from end of text
+}
+
 var resourceTemplate = _.template(' \
-<h1><%= name %></h1> \n\
+<h1 id="<%= slug %>"><%= name %></h1> \n\
   <% resources.forEach(function(resource) { %> \
   <section class="addinfo">  \n\
     <h3><%= resource.name %>  </h3>\n\
@@ -24,6 +35,7 @@ var renderLinks = function(file) {
   var raw = fs.readFileSync(file);
   var chapter = JSON.parse(raw.toString());
   console.log(resourceTemplate({
+    slug: slugify(chapter.name),
     name: chapter.name,
     resources: chapter.resources
   }));

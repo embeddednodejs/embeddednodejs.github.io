@@ -7,6 +7,10 @@
         {
           "name": "FAQ HTTP 2.0",
 	  "link": "https://http2.github.io/faq/"
+	},
+	{
+	  "name": "Dummy data",
+	  "link": "http://embeddednodejs.com/dummy_data.json"
 	}
       ]
     },

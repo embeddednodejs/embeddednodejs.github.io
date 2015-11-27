@@ -1,7 +1,13 @@
 .PHONY: links
 
 links:
-	node render_links.js
+	node render_links.js > links.html
+
+insert:
+	node insert_links.js
+
+update: links insert
+	cat static/chapters.html
 
 upload:
 	aws s3 sync --acl public-read static s3://embeddednodejs.com

@@ -5,6 +5,10 @@
       "name": "Espruino",
       "links": [
         {
+	  "name": "Espruino Pico",
+	  "link": "http://www.espruino.com/Pico"
+	},
+        {
 	  "name": "Quick Start",
 	  "link": "http://www.espruino.com/Quick+Start"
         },

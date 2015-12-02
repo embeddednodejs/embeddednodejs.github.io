@@ -48,6 +48,18 @@
       "name": "Intel Edison",
       "links": [
         {
+	  "name": "Forum Intel Edison",
+	  "link": "https://communities.intel.com/community/tech/edison"
+	},
+	{
+	  "name": "Setup Intel Edison",
+	  "link": "http://rwx.io/blog/2015/02/18/seting-up-an-edison/"
+	},
+	{
+	  "name": "Install Git on Edison",
+	  "link": "https://github.com/w4ilun/edison-guides/wiki/Installing-Git-on-Intel-Edison"
+	},
+        {
           "name": "Download latest Yocto Image",
           "link": "https://downloadcenter.intel.com/download/25028",
           "description": "Many Edison boards come with an old Yocto image. This makes configuration of Wifi and connectiviy harder than on newer images. Learn how to change this here."

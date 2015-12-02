@@ -2,6 +2,15 @@
   "name": "Chapter 2: Arduino and JavaScript",
   "resources": [
     {
+      "name": "Microcontrollers",
+      "links": [
+        {
+	  "name": "MCU vs MPU",
+          "link": "http://www.atmel.com/images/mcu_vs_mpu_article.pdf"
+        }
+      ]
+    },
+    {
       "name": "Espruino",
       "links": [
         {

@@ -8,6 +8,10 @@
           "name": "Johnny-5",
           "link": "http://johnny-five.io/"
         },
+	{
+	  "name": "Arduino's Experimenters guid for Node.js",
+	  "link": "http://node-ardx.org/"
+	},
         {
           "name": "Cylon.js",
           "link": "http://cylonjs.com/"

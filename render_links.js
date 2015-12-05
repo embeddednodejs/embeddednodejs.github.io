@@ -70,13 +70,16 @@ renderLinks('./links/ch_7_web_interfaces_for_things.json');
 console.log('</article>');
 
 console.log('<article class="overview chapter">');
-renderLinks('./links/ch_8_motion_with_javascript.json');
+renderLinks('./links/ch_8_entering_the_cloud.json');
 console.log('</article>');
 
 console.log('<article class="overview chapter">');
-renderLinks('./links/ch_9_entering_the_cloud.json');
+renderLinks('./links/ch_9_motion_with_javascript.json');
 console.log('</article>');
+
 
 console.log('<article class="overview chapter">');
 renderLinks('./links/ch_10_advanced_connectivity.json');
 console.log('</article>');
+
+

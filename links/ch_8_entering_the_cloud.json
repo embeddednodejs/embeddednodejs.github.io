@@ -2,12 +2,37 @@
   "name": "Chapter 8: Entering the Cloud",
   "resources": [
     {
+      "name": "Publish-Subscribe Pattern",
+      "links": [
+        {
+	  "name": "PubSub pattern with DNode",
+	  "link": "http://substack.net/roll_your_own_pubsub_with_dnode"
+	},
+	{
+	  "name": "EventEmitter API docs",
+	  "link": "https://nodejs.org/api/events.html#events_emitter_emit_event_arg1_arg2"
+	}
+      ]
+    },
+    {
       "name": "MQTT",
       "links": [
         {
           "name": "mqtt.js @npmjs.org",
           "link": "https://www.npmjs.com/package/mqtt"
-        },
+        }, 
+	{
+          "name": "MQTT website",
+	  "link": "http://mqtt.org/"
+	},
+	{
+           "name": "MQTT Protocol specification v3.1",
+	   "link": "http://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqttv3r1.html"
+	},
+	{
+	   "name": "Mosquitto library",
+	   "link": "http://mosquitto.org/"
+	},
         {
           "name": "Mosca",
           "link": "https://www.npmjs.com/package/mosca"

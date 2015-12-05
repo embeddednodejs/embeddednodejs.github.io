@@ -45,6 +45,15 @@
       ]
     },
     {
+      "name": "Intel Galileo",
+      "links": [
+        {
+	  "name": "Galileo and Python - applies partly to Node.js",
+	  "link": "http://senzations.net/wp-content/uploads/2014/66/Senzations14-Gallileo-Advanced-Python.pdf"
+	}
+      ]
+    },
+    {
       "name": "Intel Edison",
       "links": [
         {

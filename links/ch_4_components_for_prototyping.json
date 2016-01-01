@@ -47,6 +47,15 @@
 	  "link": "https://www.controleverything.com/products"
 	}
       ]
+    },
+    {
+      "name": "Code examples",
+      "links": [
+        {
+	  "name": "Port Expander - PCF8575",
+	  "link": "http://johnny-five.io/examples/expander-PCF8575/"
+	}
+      ]
     }
   ]
 }

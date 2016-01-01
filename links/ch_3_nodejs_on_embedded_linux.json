@@ -78,6 +78,11 @@
           "link": "http://www.intel.com/support/edison/sb/CS-035262.htm",
           "description": ""
         },
+	{
+	  "name": "GPIO mapping Mraa and SysFs",
+	  "link": "http://www.i-programmer.info/programming/hardware/8744-exploring-edison-mraa-gpio.html",
+	  "description": ""
+	},
         {
           "name": "Getting started with the board",
           "link": "http://fab-lab.eu/edison/"

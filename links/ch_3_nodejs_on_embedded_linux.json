@@ -66,36 +66,44 @@
       "name": "Intel Edison",
       "links": [
         {
-	  "name": "Forum Intel Edison",
+          "name": "(Howto) Getting started with the board",
+          "link": "http://fab-lab.eu/edison/"
+        },
+	{
+	  "name": "(Howto) Blinking LEDs with the Edison",
+	  "link": "http://blog.farsinotare.com/2015/12/26/blinking-leds-with-edison/"
+	},
+	{
+	  "name": "(Pinout) Interactive Edison Pinout",
+	  "link": "http://www.microcasts.tv/edison/"
+	},
+        {
+	  "name": "(Community) Forum Intel Edison",
 	  "link": "https://communities.intel.com/community/tech/edison"
 	},
 	{
-	  "name": "Setup Intel Edison",
+	  "name": "(Howto) Setup Intel Edison",
 	  "link": "http://rwx.io/blog/2015/02/18/seting-up-an-edison/"
 	},
 	{
-	  "name": "Install Git on Edison",
+	  "name": "(Howto) Install Git on Edison",
 	  "link": "https://github.com/w4ilun/edison-guides/wiki/Installing-Git-on-Intel-Edison"
 	},
         {
-          "name": "Download latest Yocto Image",
+          "name": "(Images) Download latest Yocto Image",
           "link": "https://downloadcenter.intel.com/download/25028",
           "description": "Many Edison boards come with an old Yocto image. This makes configuration of Wifi and connectiviy harder than on newer images. Learn how to change this here."
         },
         {
-          "name": "Flash latest Yocto Image",
+          "name": "(Howto) Flash latest Yocto Image",
           "link": "http://www.intel.com/support/edison/sb/CS-035262.htm",
           "description": ""
         },
 	{
-	  "name": "GPIO mapping Mraa and SysFs",
+	  "name": "(Overview) GPIO mapping Mraa and SysFs",
 	  "link": "http://www.i-programmer.info/programming/hardware/8744-exploring-edison-mraa-gpio.html",
 	  "description": ""
 	},
-        {
-          "name": "Getting started with the board",
-          "link": "http://fab-lab.eu/edison/"
-        },
         {
           "name": "Wifi getting Started",
           "link": "http://rexstjohn.com/getting-wi-fi-with-intel-edison/"

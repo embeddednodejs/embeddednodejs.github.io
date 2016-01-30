@@ -9,7 +9,7 @@
           "link": "http://www.seeedstudio.com/wiki/Main_Page"
         },
         {
-          "name": "Seeedstudio Base shield",
+          "name": "Seeedstudio Base shield Arduino Uno",
           "link": "http://www.seeedstudio.com/depot/Base-Shield-V2-p-1378.html?cPath=98_16"
         },
         {
@@ -28,7 +28,11 @@
         {
           "name": "I2C Education Shield",
           "link": "https://rheingoldheavy.com/i2c-and-spi-education-shield-functionality-overview/"
-        }
+        },
+	{
+	  "name": "Arduino Nano Grove Headers",
+	  "link": "https://www.tindie.com/products/imrehg/grovehat-for-arduino-nano/"
+	}
       ]
     },
     {

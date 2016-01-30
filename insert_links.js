@@ -9,5 +9,5 @@ tr.pipe(process.stdout);
 var ws = tr.select('#main-links').createWriteStream();
 ws.end(fs.readFileSync('links.html'));
 
-fs.createReadStream(__dirname + '/templates/chapters.html').pipe(tr);
+fs.createReadStream(__dirname + '/templates/chapters.html').pipe(tr).pipe(fs.createWriteStream('./static/chapters.html'));
 

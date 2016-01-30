@@ -2,12 +2,21 @@
   "name": "Chapter 7: Web Interfaces for Things",
   "resources": [
     {
-      "name": "",
+      "name": "Processing",
       "links": [
         {
           "name": "P5.js",
           "link": "http://p5js.org/"
         }
+      ]
+    },
+    {
+      "name": "D3.js",
+      "links": [
+        {
+	  "name": "D3.js - main project",
+	  "link": "http://github.com/mbostock/d3"
+	}
       ]
     }
   ]

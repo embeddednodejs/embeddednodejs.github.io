@@ -1,5 +1,5 @@
 {
-  "name": "Chapter 6: Building Servers",
+  "name": "Chapter 6: Exploring Network Protocols",
   "resources": [
     {
       "name": "HTTP",
@@ -11,6 +11,10 @@
 	{
 	  "name": "Dummy data",
 	  "link": "http://embeddednodejs.com/dummy_data.json"
+	},
+	{
+	  "name": "Overview about Node.js Web Servers",
+	  "link": "http://noeticforce.com/best-nodejs-frameworks-for-web-and-app-development"
 	}
       ]
     },
@@ -24,7 +28,15 @@
         {
           "name": "Websocket stream",
           "link": "https://github.com/maxogden/websocket-stream"
-        }
+        },
+	{
+	  "name": "Slides by @theturle32 on WebSockets",
+	  "link": "http://www.scribd.com/doc/60898569/WebSockets-The-Real-Time-Web-Delivered"
+	},
+	{
+	  "name": "RPC over web sockets",
+	  "link": "https://andreypopp.com/posts/2013-05-21-rpc-over-websocket-the-easy-way.html"
+	}
       ]
     },
     {

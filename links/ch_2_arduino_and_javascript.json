@@ -1,5 +1,5 @@
 {
-  "name": "Chapter 2: Arduino and JavaScript",
+  "name": "Chapter 2: Blink with JavaScript",
   "resources": [
     {
       "name": "Microcontrollers",
@@ -7,7 +7,15 @@
         {
 	  "name": "MCU vs MPU",
           "link": "http://www.atmel.com/images/mcu_vs_mpu_article.pdf"
-        }
+        },
+        {
+	  "name": "Quara answer MCU vs MPU",
+          "link": "https://www.quora.com/What-is-the-difference-between-a-microprocessor-and-microcontroller"
+        },
+	{
+	  "name": "Quora answer Embedded Linux vs MCU",
+	  "link": "https://www.quora.com/What-is-the-difference-between-a-Linux-based-embedded-system-and-a-microcontroller-based-embedded-system"
+	}
       ]
     },
     {
@@ -24,6 +32,19 @@
         {
 	  "name": "Tutorials",
 	  "link": "http://www.espruino.com/Tutorials"
+	}
+      ]
+    },
+    {
+      "name": "8-bit MCU",
+      "links": [
+	{
+          "name": "Arduino Pro Mini and smaller",
+	  "link": "http://blog.farsinotare.com/2015/11/08/arduino-pro-mini/"
+	},
+	{
+	  "name": "Buying Arduino Nano",
+	  "link": "https://www.mysensors.org/store/#arduinos"
 	}
       ]
     },

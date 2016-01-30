@@ -42,6 +42,19 @@
           "link": "http://www.hivemq.com/try-out/"
         }
       ]
+    },
+    {
+      "name": "Cloud services",
+      "links": [
+        {
+	  "name": "PubNub",
+	  "link": "https://github.com/pubnub/javascript"
+	},
+	{
+	  "name": "PubSub with the Telegram Bot API",
+	  "link": "https://medium.com/@rssilva/talking-with-arduino-using-telegram-and-javascript-d874a0b560cb#.d7b2cg97q"
+	}
+      ]
     }
   ]
 }

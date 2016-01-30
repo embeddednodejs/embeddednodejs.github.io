@@ -19,6 +19,10 @@
 	{
 	  "name": "Getting started on Tessel",
 	  "link": "https://github.com/tessel/t1-docs/blob/master/tutorials/ble-getting-started.md"
+	},
+	{
+	  "name": "Bluez",
+	  "link": "http://www.bluez.org/about/"
 	}
       ]
     },

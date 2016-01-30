@@ -1,13 +1,38 @@
 {
-  "name": "Chapter 9: Motion with JavaScript",
+  "name": "Chapter 9: Making robots with JavaScript",
   "resources": [
+    {
+      "name": "General robotics",
+      "links": [
+        {
+	  "name": "Rodney Brooks: Why we will rely on robots?",
+	  "link": "https://www.ted.com/talks/rodney_brooks_why_we_will_rely_on_robots?language=en"
+	},
+	{
+	  "name": "Mirobot - drawing for children",
+	  "link": "http://mirobot.io/"
+	},
+	{
+	  "name": "Hackarobot project",
+	  "link": "http://hackarobot.com/"
+	}
+      ]
+    },
     {
       "name": "Nodebots",
       "links": [
         {
+	  "name": "Nodebots.io",
+	  "link": "http://nodebots.io"
+	},
+        {
           "name": "Blog post about Nodebots day event",
           "link": "http://munich-arduino.de/2015/08/28/nodebotsday/"
-        }
+        },
+	{
+	  "name": "Nodebots Meetups",
+	  "link": "http://nodebots.meetup.com/"
+	}
       ]
     }
   ]

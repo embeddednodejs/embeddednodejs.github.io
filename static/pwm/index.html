@@ -1,0 +1,29 @@
+<html>
+    <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<head>
+          <style>
+            .signal {
+              stroke: red
+            }
+	    .controls {
+	      position: absolute;
+	      left: 40px;
+	      top: 10px;
+	    }
+          </style>
+	</head>
+
+	<body>
+	  <div class="controls">
+	    <label for="width">Cycle width (ms)</label>
+	    <input name="width" id="width" value="120" />
+	    <label for="cycle">Duty Cycle (%)</label>
+	    <input name="cycle" id="cycle" value="0.3" />
+	    <button id="update">update</button>
+          </div>
+
+	<script src="/pwm/bundle.js"></script>
+	</body>
+</html>

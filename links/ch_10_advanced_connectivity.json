@@ -23,6 +23,10 @@
 	{
 	  "name": "Bluez",
 	  "link": "http://www.bluez.org/about/"
+	},
+	{
+	  "name": "Cylon BLE",
+	  "link": "https://github.com/hybridgroup/cylon-ble"
 	}
       ]
     },
@@ -33,10 +37,41 @@
           "name": "Web of Things (WoT)",
           "link": "https://github.com/w3c/wot"
         },
+	{
+	  "name": "W3 working group Web of Things",
+	  "link": "https://www.w3.org/WoT/IG/"
+
+	},
         {
-          "name": "WoT.js",
+          "name": "(Github) WoT.js",
           "link": "https://github.com/hollobit/wot.js/tree/master"
         }
+      ]
+    },
+    {
+      "name": "BlueIOT",
+      "links": [
+        {
+	  "name": "BlueIOT Getting Started",
+	  "link": "http://fab-lab.eu/wp-content/uploads/2015/01/Platinchen-aka-blueIOT-getting-started-V1.pdf"
+	}
+      ]
+    },
+    {
+      "name": "Bluetooth",
+      "links": [
+        {
+	  "name": "BLE basics",
+	  "link": "http://projects.mbientlab.com/bluetooth-low-energy-basics/"
+	},
+	{
+	  "name": "Beacon basics",
+	  "link": "https://developer.mbed.org/blog/entry/BLE-Beacons-URIBeacon-AltBeacons-iBeacon/"
+	},
+	{
+	  "name": "BLE GAP Advertising",
+	  "link": "https://devzone.nordicsemi.com/blogs/782/bluetooth-smart-and-the-nordics-softdevices-part-1/"
+	}
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "Chapter 3: Node.js on Embedded Linux",
+  "name": "Chapter 3: Embedded Internet",
   "resources": [
     {
       "name": "General Linux",
@@ -11,15 +11,6 @@
         {
           "name": "irc.freenode: #edev"
         }
-      ]
-    },
-    {
-      "name": "Terminal Emulators",
-      "links": [
-        {
-          "name": "Screen (MacOS/Linux)",
-	  "link": "https://www.gnu.org/software/screen/"
-	}
       ]
     },
     {
@@ -112,6 +103,10 @@
           "name": "Tricks for Wifi config",
           "link": "http://rwx.io/blog/2015/08/16/edison-wifi-config/"
         },
+	{
+	  "name": "Breakout friendly Intel Edison",
+	  "link": "http://hackaday.com/2015/04/01/a-stack-of-boards-for-an-edison-breadboard-adapter/"
+	},
         {
           "name": "GPIO Mapping on Intel Edison",
           "link": "http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide"

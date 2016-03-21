@@ -38,6 +38,39 @@
 	  "link": "http://nodebots.meetup.com/"
 	}
       ]
+    },
+    {
+      "name": "Sensors",
+      "links": [
+        {
+	  "name": "MPU-6050",
+	  "link": "http://johnny-five.io/examples/imu-mpu6050/"
+	},
+	{
+	  "name": "Detecting an MPU-6050",
+	  "link": "http://blog.bitify.co.uk/2013/11/interfacing-raspberry-pi-and-mpu-6050.html"
+	},
+	{
+	  "name": "Datasheet MPU-6050",
+	  "link": "https://www.cdiweb.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf"
+	}
+      ]
+    },
+    {
+      "name": "Actuators",
+      "links": [
+        {
+	  "name": "[GreatScott]: Overview on electro motors",
+	  "link": "https://www.youtube.com/watch?v=UteZJ_7C4Mg"
+	}
+      ]
+    },
+    {
+      "name": "Connectivity",
+      "links": [
+      { "name": "Controlling robots with Bluetooth",
+        "link": "https://github.com/rwaldron/johnny-five/wiki/Getting-Started-with-Johnny-Five-and-JY-MCU-Bluetooth-Serial-Port-Module" }
+      ]
     }
   ]
 }

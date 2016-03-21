@@ -19,6 +19,15 @@
       ]
     },
     {
+      "name": "Terminal Emulators",
+      "links": [
+        {
+          "name": "Screen (MacOS/Linux)",
+	  "link": "https://www.gnu.org/software/screen/"
+	}
+      ]
+    },
+    {
       "name": "Espruino",
       "links": [
         {
@@ -36,8 +45,12 @@
       ]
     },
     {
-      "name": "8-bit MCU",
+      "name": "Arduino",
       "links": [
+        {
+	  "name": "Pinouts for Arduino",
+	  "link": "http://www.pighixxx.com/test/pinoutspg/boards/#prettyPhoto"
+	},
 	{
           "name": "Arduino Pro Mini and smaller",
 	  "link": "http://blog.farsinotare.com/2015/11/08/arduino-pro-mini/"
@@ -59,6 +72,15 @@
           "name": "Interfacing Arduino with other software - Forum Arduino",
           "link": "http://forum.arduino.cc/index.php?board=12.0"
         }
+      ]
+    },
+    {
+      "name": "Basic Circuits",
+      "links": [
+        {
+	  "name": "Grove header Nano",
+	  "link": "https://www.tindie.com/products/imrehg/grovehat-for-arduino-nano/"
+	}
       ]
     }
   ]

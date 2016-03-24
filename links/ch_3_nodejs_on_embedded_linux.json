@@ -2,7 +2,63 @@
   "name": "Chapter 3: Embedded Internet",
   "resources": [
     {
-      "name": "General Linux",
+      "name": "Specs",
+      "links": [
+        {
+          "name": "Ethernet",
+	  "link": "http://ethernethistory.typepad.com/papers/EthernetSpec.pdf"
+	},
+        {
+          "name": "Wifi 802.11",
+	  "link": "https://en.wikipedia.org/wiki/IEEE_802.11"
+	}
+      ]
+    },
+    {
+      "name": "Tessel 2",
+      "links": [
+        {
+	  "name": "Tessel 2 CLI",
+	  "link": "https://tessel.io/docs/cli"
+	},
+        {
+	  "name": "Mips 24K datasheet",
+	  "link": "https://people.freebsd.org/~adrian/mips/MD00343-2B-24K-SUM-03.11.pdf"
+	}
+      ]
+    },
+    {
+      "name": "Particle",
+      "links": [
+        {
+	  "name": "Particle-cli",
+	  "link": "https://github.com/spark/particle-cli"
+	},
+        {
+	  "name": "Particle@Github",
+	  "link": "https://github.com/spark"
+	},
+        {
+	  "name": "build.particle.io (IDE)",
+	  "link": "https://build.particle.io"
+	},
+	{
+	  "name": "Particle.io lib for Johanny-five",
+	  "link": "https://github.com/rwaldron/particle-io"
+	}
+      ]
+    },
+    {
+      "name": "RedBear Labs",
+      "links": [
+        {
+	  "name": "Forum",
+	  "link": "http://discuss.redbear.cc/"
+	}
+      ]
+    },
+    {
+      "name": "General Embedded Linux",
       "links": [
         {
           "name": "Embedded Linux Wiki",

@@ -37,7 +37,11 @@
         {
           "link": "https://nodejs.org/api/fs.html",
           "name": "File System API Docs"
-        }
+        },
+	{
+	  "link": "http://stackoverflow.com/questions/30701220/how-to-compare-buffer-objects-in-nodejs",
+	  "name": "Compare buffers in Node.js"
+	}
       ]
     },
     {

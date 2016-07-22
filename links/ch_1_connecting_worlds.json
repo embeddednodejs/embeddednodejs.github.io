@@ -1,5 +1,6 @@
 {
   "name": "Chapter 1: Connecting Worlds",
+  "description": "This chapter shows the role of JavaScript as programming language for 'full-stack' IoT applications. General motivations for IoT as well as using JavaScript are discussed. Also, an introduction to Node.js and JavaScript is given.",
   "resources": [
     {
       "name": "Articles on IoT",
@@ -15,7 +16,23 @@
         {
           "link": "http://cdn.oreillystatic.com/en/assets/1/event/127/Programming%20the%20Internet%20of%20Things%20with%20Node_js%20and%20HTML5%20Presentation.pdf",
           "name": "Slides IoT workshop at SolidCon by Michael McCool"
-        }
+        },
+	{
+	  "name": "The end of web development (as we know it)",
+	  "link": "http://www.slideshare.net/TechnicalMachine/tessel-the-end-of-web-development-as-we-know-it/15-The_Internet_of_Thingswill_be"
+	},
+	{
+	  "name": "[podcast] JavaScript for embedded systems",
+	  "link": "https://www.oreilly.com/ideas/peter-hoddie-on-javascript-for-embedded-systems"
+	},
+	{
+	  "link": "https://www.oreilly.com/ideas/conquer-the-internet-of-things-in-20-minutes",
+	  "name": "Building a Node.js weather station in 20 minutes"
+	},
+	{
+	  "link": "https://vimeo.com/129003513",
+	  "name": "Babbling with the merfolk: between the layers of JavaScript hardware by Suz Hinton"
+	}
       ]
     },
     {

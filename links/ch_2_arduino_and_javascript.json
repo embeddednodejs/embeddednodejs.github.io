@@ -1,9 +1,14 @@
 {
   "name": "Chapter 2: Blink with JavaScript",
+  "description": "This chapters explains the basics of programming an Arduino with JavaScript. Arduino is popular for an easy getting started experience with an embedded device. Start here to find out about pins, analog and digital signals and firmware basics.",
   "resources": [
     {
       "name": "Microcontrollers",
       "links": [
+        {
+	  "name": "Between the layers of JavaScript hardware by Suz Hinton",
+	  "link": "https://vimeo.com/129003513"
+	},
         {
 	  "name": "MCU vs MPU",
           "link": "http://www.atmel.com/images/mcu_vs_mpu_article.pdf"
@@ -15,32 +20,6 @@
 	{
 	  "name": "Quora answer Embedded Linux vs MCU",
 	  "link": "https://www.quora.com/What-is-the-difference-between-a-Linux-based-embedded-system-and-a-microcontroller-based-embedded-system"
-	}
-      ]
-    },
-    {
-      "name": "Terminal Emulators",
-      "links": [
-        {
-          "name": "Screen (MacOS/Linux)",
-	  "link": "https://www.gnu.org/software/screen/"
-	}
-      ]
-    },
-    {
-      "name": "Espruino",
-      "links": [
-        {
-	  "name": "Espruino Pico",
-	  "link": "http://www.espruino.com/Pico"
-	},
-        {
-	  "name": "Quick Start",
-	  "link": "http://www.espruino.com/Quick+Start"
-        },
-        {
-	  "name": "Tutorials",
-	  "link": "http://www.espruino.com/Tutorials"
 	}
       ]
     },

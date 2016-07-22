@@ -1,0 +1,18 @@
+{
+  "name": "Chapter 4: Tessel 2",
+  "resources": [
+    {
+      "name": "Tessel 2",
+      "links": [
+        {
+	  "name": "Tessel 2 CLI",
+	  "link": "https://tessel.io/docs/cli"
+	},
+        {
+	  "name": "Mips 24K datasheet",
+	  "link": "https://people.freebsd.org/~adrian/mips/MD00343-2B-24K-SUM-03.11.pdf"
+	}
+      ]
+    }
+  ]
+}

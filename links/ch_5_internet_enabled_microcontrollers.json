@@ -1,0 +1,58 @@
+{
+  "name": "Chapter 5: Internet Enabled Microcontrollers",
+  "description": "",
+  "resources": [
+    {
+      "name": "Particle",
+      "links": [
+        {
+	  "name": "Particle-cli",
+	  "link": "https://github.com/spark/particle-cli"
+	},
+        {
+	  "name": "Particle@Github",
+	  "link": "https://github.com/spark"
+	},
+        {
+	  "name": "build.particle.io (IDE)",
+	  "link": "https://build.particle.io"
+	},
+	{
+	  "name": "Particle.io lib for Johanny-five",
+	  "link": "https://github.com/rwaldron/particle-io"
+	}
+      ]
+    },
+    {
+      "name": "RedBear Labs",
+      "links": [
+        {
+	  "name": "Forum",
+	  "link": "http://discuss.redbear.cc/"
+	}
+      ]
+    },
+    {
+      "name": "ESP8266",
+      "links": [
+        {
+	  "name": "ESP8266 Overview",
+	  "link": "http://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module/"
+	},
+        {
+          "name": "Flashing NodeMCU",
+          "link": "https://www.youtube.com/watch?v=_GSYZ1e14nc"
+        }
+      ]
+    },
+    {
+      "name": "Other Boards",
+      "links": [
+        {
+	  "name": "Nogs.cc",
+	  "link": "http://www.nogs.cc/"
+        }
+      ]
+    }
+  ]
+}

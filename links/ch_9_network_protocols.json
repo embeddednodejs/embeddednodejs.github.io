@@ -1,5 +1,5 @@
 {
-  "name": "Chapter 6: Exploring Network Protocols",
+  "name": "Chapter 9: Exploring Network Protocols",
   "resources": [
     {
       "name": "HTTP",
@@ -71,6 +71,16 @@
 	  "link": "http://substack.net/some_libraries_I_use_to_build_webapps"
 	}
       ]
+    },
+    {
+      "name": "Weather stations",
+      "links": [
+        {
+	  "name": "Build your own Arduino weather station",
+	  "link": "http://makezine.com/2015/11/20/build-your-own-arduino-weather-station/"
+	}
+      ]
+
     }
   ]
 }

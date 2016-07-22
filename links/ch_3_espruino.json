@@ -1,0 +1,31 @@
+{
+  "name": "Chapter 3: Espruino",
+  "resources": [
+    {
+      "name": "Terminal Emulators",
+      "links": [
+        {
+          "name": "Screen (MacOS/Linux)",
+	  "link": "https://www.gnu.org/software/screen/"
+	}
+      ]
+    },
+    {
+      "name": "Espruino",
+      "links": [
+        {
+	  "name": "Espruino Pico",
+	  "link": "http://www.espruino.com/Pico"
+	},
+        {
+	  "name": "Quick Start",
+	  "link": "http://www.espruino.com/Quick+Start"
+        },
+        {
+	  "name": "Tutorials",
+	  "link": "http://www.espruino.com/Tutorials"
+	}
+      ]
+    }
+  ]
+}

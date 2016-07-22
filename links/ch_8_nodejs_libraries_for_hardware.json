@@ -1,12 +1,21 @@
 {
-  "name": "Chapter 5: Node.js Libraries for Hardware",
+  "name": "Chapter 8: Node.js Libraries for Hardware",
   "resources": [
     {
-      "name": "Abstractions for boards and components",
+      "name": "JavaScript Abstractions for Hardware",
       "links": [
         {
-          "name": "Johnny-5",
-          "link": "http://johnny-five.io/"
+          "name": "serialport",
+          "link": "https://www.npmjs.com/package/serialport"
+	},
+	{
+	  "name": "Serial Communication with Node.js",
+	  "link": "http://thinkingonthinking.com/serial-communication-with-nodejs/"
+	},
+        {
+          "name": "Johnny-five",
+          "link": "http://johnny-five.io/",
+	  "description": "Johnny-Five provides a JavaScript API to work with embedded devices. Originally written for Arduino boards, the library supports many boards right now."
         },
 	{
 	  "name": "Arduino's Experimenters guid for Node.js",

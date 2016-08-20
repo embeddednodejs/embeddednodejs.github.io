@@ -32,6 +32,33 @@ body {
     background: url("images/buch_ecke.png") no-repeat right top;
     min-height: 960px; } }
 
+.open {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin: 15px;
+  background-color: #ffffcc;
+  padding: 14px; }
+
+.box {
+  width: 220px;
+  float: left;
+  height: 200px;
+  background-color: #ea88ff;
+  margin: 8px;
+  padding: 8px; }
+  .box h3 {
+    color: #f4f8f9; }
+  .box a {
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    padding-left: 4px;
+    color: white; }
+
+.blue {
+  background-color: blue; }
+
 .photo {
   margin: 0 auto;
   width: 400px; }
@@ -346,7 +373,8 @@ footer .sales a:visited {
 .start {
   padding-top: 20px;
   clear: both;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 84%; }
 
 @media (min-width: 600px) {
   .start {
@@ -356,7 +384,7 @@ footer .sales a:visited {
 
 @media (min-width: 1100px) {
   .start {
-    width: 54%;
+    width: 68%;
     overflow: hidden; } }
 
 @media (max-width: 580px) {

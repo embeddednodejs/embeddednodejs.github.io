@@ -11,6 +11,22 @@
         {
 	  "name": "Mips 24K datasheet",
 	  "link": "https://people.freebsd.org/~adrian/mips/MD00343-2B-24K-SUM-03.11.pdf"
+	},
+	{
+	  "name": "Tessel 2 Start Experience",
+	  "link": "http://tessel.io/t2-start"
+	},
+	{
+	  "name": "Tessel 2 Documentation",
+	  "link": "http://tessel.io/docs"
+	},
+	{
+	  "name": "Tessel Website",
+	  "link": "http://tessel.io"
+	}
+	{
+	  "name": "Tessel Project Main Repo",
+	  "link": "https://github.com/tessel/project"
 	}
       ]
     }

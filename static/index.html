@@ -33,82 +33,82 @@
 
 <article class="start">
    <section class="open">
-   The book <a href="http://shop.oreilly.com/product/0636920041504.do">Node.js for embedded systemsk</a> explores a new role for JavaScript: JavaScript as glue between hardware and software.
+   The book <a href="http://shop.oreilly.com/product/0636920041504.do">Node.js for embedded systems</a> explores a new role for JavaScript: JavaScript as glue between devices and systems.
    </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>1</h3>
 	  <a href="/worlds">Connecting Worlds</a>
   </section>
 
-  <section class="box">
+  <section class="box arduino">
 	  <h3>2</h3>
 	  <a href="/blinkarduino">Blink with Arduino</a>
   </section>
 
-  <section class="box">
+  <section class="box espruino">
 	  <h3>3</h3>
 	  <a href="/espruino">Espruino</a>
   </section>
 
-  <section class="box">
+  <section class="box tessel">
 	  <h3>4</h3>
 	  <a href="/tessel2">Tessel 2</a>
   </section>
 
-  <section class="box">
+  <section class="box particle">
 	  <h3>5</h3>
-	  <a href="/photon">Internet Enabled Microcontrollers</a>
+	  <a href="/photon">Photon</a>
   </section>
 
-  <section class="box">
+  <section class="box edison">
 	  <h3>6</h3>
 	  <a href="/sbc">Single Board Computers</a>
   </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>7</h3>
 	  <a href="/components">Components for Prototyping</a>
   </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>8</h3>
 	  <a href="/libs">Node.js Libraries for Hardware</a>
   </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>9</h3>
 	  <a href="/http">Exploring Network Protocols</a>
   </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>10</h3>
 	  <a href="/webinterfaces">Web Interfaces for Things</a>
   </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>11</h3>
 	  <a href="/enteringcloud">Entering the Cloud</a>
   </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>12</h3>
 	  <a href="/nodebots">Making Robots with JavaScript</a>
   </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>13</h3>
 	  <a href="/wireless">Wireless Data with Bluetooth</a>
   </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>14</h3>
 	  <a href="/toward">Toward The Physical Internet</a>
   </section>
 
-  <section class="box">
+  <section class="box random">
 	  <h3>15</h3>
-	  <a href="/worlds">acb</a>
+	  <a href="/products">From Products to Toolkits</a>
   </section>
 
 
@@ -193,7 +193,7 @@ generateRandomComplementaryColor = function(r, g, b){
 
 
 function makeRandomBoxColors() {
-  $('.box').each(function(i, box) {
+  $('.random').each(function(i, box) {
     var randomNumber = rand(0, colors.length - 1);
 
     var c = colors[randomNumber];

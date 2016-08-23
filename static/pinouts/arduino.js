@@ -9649,7 +9649,7 @@ pins.append('g')
            return 8+i * 32;
          })
          .attr('height', '14px')
-         .attr('width', '14px')
+         .attr('width', '12px')
          .attr('class', 'pin');
 
 pins.append('text')

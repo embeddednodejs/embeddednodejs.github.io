@@ -25,10 +25,24 @@ function renderPage(src, dest, track) {
 
 
 // ch1
-var ch1 = fs.createWriteStream(__dirname + '/static/worlds/index.html');
 renderPage('content/ch_1.md',
            __dirname + '/static/worlds/index.html',
            'worlds');
+
+// ch2
+renderPage('content/ch_2.md',
+           __dirname + '/static/blinkarduino/index.html',
+           'arduino');
+ 
+// ch3
+renderPage('content/ch_3.md',
+           __dirname + '/static/espruino/index.html',
+           'espruino');
+ 
+// ch4
+renderPage('content/ch_4.md',
+           __dirname + '/static/tessel2/index.html',
+           'tessel2');
 
 // ch8
 renderPage('content/ch_8_nodejs_libraries_for_hardware.md',

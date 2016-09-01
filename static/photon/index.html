@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Node.js for Embedded Systems</title>
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/main.css">
   <meta name="keywords" content="javascript,embedded,controllers,programmable,led,microcontroller,pcb,starter,kit,arduino,nano,mega,uno,led,bits,bytes">
   
   
@@ -29,52 +29,61 @@
 
 </header>
 
-<div class="center-text">
-<p>These links may be useful to get started with Node.js and embedded systems.</p>
-<p>You can submit links with an issue or a pull request to <a href="https://github.com/embeddednodejs/embeddednodejs.github.io">this code repository</a>.
-</div>
 
-<!-------- insert links here ----->
-<div id="main-links">
-  
-<article class="overview chapter">
- <h1 id="chapter-5-internet-enabled-microcontrollers">Chapter 5: Internet Enabled Microcontrollers</h1> 
-  <p></p> 
-     <section class="addinfo">  
-    <h3>Particle  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="https://github.com/spark/particle-cli">Particle-cli</a></li> 
-                             <li><a href="https://github.com/spark">Particle@Github</a></li> 
-                             <li><a href="https://build.particle.io">build.particle.io (IDE)</a></li> 
-                             <li><a href="https://github.com/rwaldron/particle-io">Particle.io lib for Johanny-five</a></li> 
-                  </ul> 
-  </section>   
-     <section class="addinfo">  
-    <h3>RedBear Labs  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="http://discuss.redbear.cc/">Forum</a></li> 
-                  </ul> 
-  </section>   
-     <section class="addinfo">  
-    <h3>ESP8266  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="http://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module/">ESP8266 Overview</a></li> 
-                             <li><a href="https://www.youtube.com/watch?v=_GSYZ1e14nc">Flashing NodeMCU</a></li> 
-                  </ul> 
-  </section>   
-     <section class="addinfo">  
-    <h3>Other Boards  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="http://www.nogs.cc/">Nogs.cc</a></li> 
-                  </ul> 
-  </section>   
-    
+<aside id="toc"><ul>
+<li><a href="/worlds">Connecting Worlds</a></li>
+<li><a href="/blinkarduino">Blink with Arduino</a></li>
+<li><a href="/espruino">Espruino</a></li>
+<li><a href="/tessel2">Tessel 2</a></li>
+<li><a href="/photon">Photon</a></li>
+<li><a href="/sbc">Single Board Computer</a></li>
+<li><a href="/components">Components</a></li>
+<li><a href="/libs">Node.js Libraries for Hardware</a></li>
+<li><a href="/http">Exploring Network Protocols</a></li>
+<li><a href="/webinterfaces">Web Interfaces</a></li>
+<li><a href="/nodebots">Making Robots with Node.js</a></li>
+<li><a href="/wireless">Wireless Data with Bluetooth</a></li>
+<li><a href="/toward">Toward the Physical Internet</a></li>
+<li><a href="/products">From Products to Toolkits</a></li>
+</ul>
+</aside>
+
+<section class="middle" id="main-links">
+   <article id ="links" class="overview chapter"><h1 id="chapter-5-photon">Chapter 5: Photon</h1>
+<p>The Particle Photon combines a microcontroller with a wireless connection. While, the embedded code is written in Arduino style (and mostly compatible), a number of toolchains for the Particle photon are written in Node.js</p>
+<p>While the Particle boards are one of the first open-source hardware boards combining microcontrollers and JavaScript, more boards such as the Redbear Duo or ESP822 boards can be interesting to build small IoT devices with a microcontroller.</p>
+<h2 id="particle">Particle</h2>
+<ul> 
+     <li><a href="https://github.com/spark/particle-cli">Particle-cli</a></li> 
+     <li><a href="https://github.com/spark">Particle@Github</a></li> 
+     <li><a href="https://build.particle.io">build.particle.io (IDE)</a></li> 
+     <li><a href="https://github.com/rwaldron/particle-io">Particle.io lib for Johanny-five</a></li> 
+</ul> 
+
+<h2 id="redbear-labs">RedBear Labs</h2>
+<ul>
+<li><a href="http://discuss.redbear.cc/">Forum</a></li>
+</ul>
+<h2 id="esp8266">ESP8266</h2>
+<ul>
+     <li><a href="http://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module/">ESP8266 Overview</a></li> 
+     <li><a href="https://www.youtube.com/watch?v=_GSYZ1e14nc">Flashing NodeMCU</a></li> 
+</ul> 
+
+<h2 id="other-boards-h3-">Other Boards  </h3></h2>
+<ul> 
+   <li><a href="http://www.nogs.cc/">Nogs.cc</a></li> 
+</ul> 
+
 </article>
-</div>
+</section>
+
+<section class="note">
+<p>These links may be useful to get started with Node.js and embedded systems.</p>
+<p>If you find new links or broken links, <a href="https://github.com/embeddednodejs/embeddednodejs.github.io/issues">please let us know</a>.
+</p>
+</section>
+
 
 
 <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
@@ -82,9 +91,7 @@ for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElemen
 mixpanel.init("cd92beda435a863a4a96f8852e520f30");</script><!-- end Mixpanel -->
 
 
-<script>
-mixpanel.track("photon");
-</script>
+<script id="track">mixpanel.track("photon")</script>
 
 </body>
 </html>

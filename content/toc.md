@@ -4,6 +4,7 @@
 * [Tessel 2](/tessel2)
 * [Photon](/photon)
 * [Single Board Computer](/sbc)
+* [Components](/components)
 * [Node.js Libraries for Hardware](/libs)
 * [Exploring Network Protocols](/http)
 * [Web Interfaces](/webinterfaces)

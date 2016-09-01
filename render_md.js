@@ -43,6 +43,22 @@ renderPage('content/ch_3.md',
 renderPage('content/ch_4.md',
            __dirname + '/static/tessel2/index.html',
            'tessel2');
+ 
+// ch5
+renderPage('content/ch_5.md',
+           __dirname + '/static/photon/index.html',
+           'photon');
+ 
+// ch6
+renderPage('content/ch_6.md',
+           __dirname + '/static/sbc/index.html',
+           'sbc');
+
+// ch7
+renderPage('content/ch_7.md',
+           __dirname + '/static/components/index.html',
+           'components');
+
 
 // ch8
 renderPage('content/ch_8_nodejs_libraries_for_hardware.md',

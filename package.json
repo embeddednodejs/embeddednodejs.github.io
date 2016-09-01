@@ -12,6 +12,7 @@
     "findit": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
+    "hyperstream": "^1.2.2",
     "jsonstream": "^1.0.3",
     "marked": "^0.3.6",
     "trumpet": "^1.7.2",

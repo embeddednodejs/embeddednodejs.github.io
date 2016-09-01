@@ -19,7 +19,7 @@
   <nav>
     <ul>
       <li><a href="/">The Book</a></li>
-      <li>Connecting Worlds</li>
+      <li><a class="active" href="/chapters.html">Chapters</a></li>
       <li><a href="https://github.com/embeddednodejs">Code Repository</a></li>
     </ul>
  
@@ -35,47 +35,28 @@
 </div>
 
 <!-------- insert links here ----->
-<div id="main-links"><article class="overview chapter">
- <h1 id="chapter-1-connecting-worlds">Chapter 1: Connecting Worlds</h1> 
-  <p>This chapter shows the role of JavaScript as programming language for 'full-stack' IoT applications. General motivations for IoT as well as using JavaScript are discussed. Also, an introduction to Node.js and JavaScript is given.</p> 
-     <section class="addinfo">  
-    <h3>Articles on IoT  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="http://radar.oreilly.com/2015/06/the-smartest-way-to-program-smart-things-node-js.html">The smartest way to program smart things</a></li> 
-                             <li><a href="https://blog.jscrambler.com/javascript-the-perfect-language-for-the-internet-of-things-iot/">JavaScript - The perfect language for the Internet of Things</a></li> 
-                             <li><a href="http://cdn.oreillystatic.com/en/assets/1/event/127/Programming%20the%20Internet%20of%20Things%20with%20Node_js%20and%20HTML5%20Presentation.pdf">Slides IoT workshop at SolidCon by Michael McCool</a></li> 
-                             <li><a href="http://www.slideshare.net/TechnicalMachine/tessel-the-end-of-web-development-as-we-know-it/15-The_Internet_of_Thingswill_be">The end of web development (as we know it)</a></li> 
-                             <li><a href="https://www.oreilly.com/ideas/peter-hoddie-on-javascript-for-embedded-systems">[podcast] JavaScript for embedded systems</a></li> 
-                             <li><a href="https://www.oreilly.com/ideas/conquer-the-internet-of-things-in-20-minutes">Building a Node.js weather station in 20 minutes</a></li> 
-                             <li><a href="https://vimeo.com/129003513">Babbling with the merfolk: between the layers of JavaScript hardware by Suz Hinton</a></li> 
-                  </ul> 
-  </section>   
-     <section class="addinfo">  
-    <h3>Projects and showcases  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="http://edison-lab.jp/">Intel Edison project showcases (Japan)</a></li> 
-                             <li><a href="http://thaliproject.org/">Thali - Framework for connected devices</a></li> 
-                  </ul> 
-  </section>   
-     <section class="addinfo">  
-    <h3>Node.js  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="https://nodejs.org/api/fs.html">File System API Docs</a></li> 
-                             <li><a href="http://stackoverflow.com/questions/30701220/how-to-compare-buffer-objects-in-nodejs">Compare buffers in Node.js</a></li> 
-                  </ul> 
-  </section>   
-     <section class="addinfo">  
-    <h3>JXcore  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="https://github.com/jxcore/jxcore/blob/master/doc/native/Embedding_Basics.md">Basics of embedding JXcore</a></li> 
-                  </ul> 
-  </section>   
-    
-</article>
+<div id="main-links">
+   <article id ="links" class="overview chapter"><h1 id="chapter-1-connecting-worlds">Chapter 1: Connecting Worlds</h1>
+<p>This chapter shows the role of JavaScript as programming language for &#39;full-stack&#39; IoT applications. General motivations for IoT as well as using JavaScript are discussed. Also, an introduction to Node.js and JavaScript is given.</p>
+<h2 id="iot-and-javascript">IoT and JavaScript</h2>
+<p>There are different levels of connecting systems and devices, as explained in <a href="http://cdn.iotwf.com/resources/72/IoT_Reference_Model_04_June_2014.pdf">industry IoT reference model</a>. As discussed in <a href="http://radar.oreilly.com/2015/06/the-smartest-way-to-program-smart-things-node-js.html">this blog post</a>, JavaScript offers a smarter way to program smart things. In a <a href="https://blog.jscrambler.com/javascript-the-perfect-language-for-the-internet-of-things-iot/">similar blog post</a>, the role of JavaScript for IoT is discussed.
+This is also the topic of a podcast <a href="https://www.oreilly.com/ideas/peter-hoddie-on-javascript-for-embedded-systems">JavaScript for embedded systems</a>.</p>
+<p>In <a href="http://cdn.oreillystatic.com/en/assets/1/event/127/Programming%20the%20Internet%20of%20Things%20with%20Node_js%20and%20HTML5%20Presentation.pdf">his IoT workshop at SolidCon 2015</a>, Michael McCool provides a good walkthrough of getting started with JavaScript and hardware.</p>
+<p>The role of JavaScript for web interfaces is presented in the talk <a href="http://www.slideshare.net/TechnicalMachine/tessel-the-end-of-web-development-as-we-know-it/15-The_Internet_of_Thingswill_be">The end of web development (as we know it)</a>.</p>
+<p>Another nice start is discussed in this blog post <a href="https://www.oreilly.com/ideas/conquer-the-internet-of-things-in-20-minutes">Building a Node.js weather station in 20 minutes</a>. And, in <a href="https://vimeo.com/129003513">Babbling with the merfolk: between the layers of JavaScript hardware by Suz Hinton</a>.</p>
+<h2 id="projects-and-showcases">Projects and showcases</h2>
+<p>In <a href="http://edison-lab.jp/">Intel Edison project showcases (Japan)</a> several IoT projects can be found.</p>
+<h2 id="node-js">Node.js</h2>
+<p>Nice ideas to work with bits and bytes and JavaScript can be found for example here: <a href="http://stackoverflow.com/questions/30701220/how-to-compare-buffer-objects-in-nodejs">Compare buffers in Node.js</a>. Buffers are important when it comes to working with <a href="https://nodejs.org/api/fs.html">files</a>.</p>
+<h2 id="javascript-runtime-environments">JavaScript runtime environments</h2>
+<ul>
+<li><p>The <a href="https://github.com/jxcore/jxcore/">JXcore project</a> is a runtime hat is optimized for an embedded device. You can embed this JavaScript runtime in your own projects as shown here: <a href="https://github.com/jxcore/jxcore/blob/master/doc/native/Embedding_Basics.md">Basics of embedding JXcore</a></p>
+</li>
+<li><p>The project <a href="http://thaliproject.org/">Thali - Framework for connected devices</a></p>
+</li>
+<li><p>Writing <a href="https://nodejs.org/api/addons.html">Node.js Native Addons for C++</a></p>
+</li>
+</ul>
 </article>
 </div>
 
@@ -86,7 +67,7 @@ mixpanel.init("cd92beda435a863a4a96f8852e520f30");</script><!-- end Mixpanel -->
 
 
 <script>
-mixpanel.track("connecting_worlds");
+mixpanel.track("libs");
 </script>
 
 </body>

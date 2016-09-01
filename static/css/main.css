@@ -40,6 +40,8 @@ body {
   margin: 15px;
   background-color: #ffffcc;
   padding: 14px; }
+  .open a {
+    color: #004040; }
 
 .box {
   width: 210px;

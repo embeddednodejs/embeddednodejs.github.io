@@ -166,9 +166,8 @@ nav .contact li {
   font-size: 60px;
   font-family: 'entypo-social'; }
 
-.chapter {
-  width: 80%;
-  margin-bottom: 40px; }
+.overview {
+  padding-left: 20px; }
 
 .chapter h1 {
   font-size: 24px; }
@@ -203,6 +202,19 @@ nav .contact li {
   background-color: #fff;
   z-index: 99999;
   text-align: center; }
+
+.middle {
+  min-width: 400px;
+  width: 80%;
+  float: left;
+  padding-left: 20px; }
+
+#toc {
+  width: 200px;
+  background-color: white;
+  float: left; }
+  #toc li {
+    list-decoration: none; }
 
 .main-wrapper {
   padding: 50px;
@@ -303,7 +315,7 @@ p {
   text-align: center; }
 
 .author {
-  width: 70%;
+  width: 64%;
   margin: 0 auto; }
 
 .author h1 {
@@ -417,9 +429,10 @@ footer .sales a:visited {
   .hero {
     width: 80%; } }
 
-.overview {
-  width: 70%;
-  margin: 0 auto; }
-
-.divshot {
-  margin-bottom: 10px; }
+.note {
+  clear: both;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #f6f500;
+  padding: 8px;
+  border: 1px black solid; }

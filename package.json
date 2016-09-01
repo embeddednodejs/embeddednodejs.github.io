@@ -13,7 +13,12 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
     "jsonstream": "^1.0.3",
+    "marked": "^0.3.6",
     "trumpet": "^1.7.2",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp-markdown": "^1.2.0",
+    "hyperstream": "^1.2.2"
   }
 }

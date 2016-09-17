@@ -19,7 +19,6 @@
   <nav>
     <ul>
       <li><a href="/">The Book</a></li>
-      <li><a class="active" href="/chapters.html">Chapters</a></li>
       <li><a href="https://github.com/embeddednodejs">Code Repository</a></li>
     </ul>
  
@@ -30,7 +29,8 @@
 </header>
 
 
-<aside id="toc"><ul>
+<aside id="toc"><h1 id="chapters">Chapters</h1>
+<ol>
 <li><a href="/worlds">Connecting Worlds</a></li>
 <li><a href="/blinkarduino">Blink with Arduino</a></li>
 <li><a href="/espruino">Espruino</a></li>
@@ -42,10 +42,10 @@
 <li><a href="/http">Exploring Network Protocols</a></li>
 <li><a href="/webinterfaces">Web Interfaces</a></li>
 <li><a href="/nodebots">Making Robots with Node.js</a></li>
-<li><a href="/wireless">Wireless Data with Bluetooth</a></li>
+<li><a href="/bluetooth">Wireless Data with Bluetooth</a></li>
 <li><a href="/toward">Toward the Physical Internet</a></li>
 <li><a href="/products">From Products to Toolkits</a></li>
-</ul>
+</ol>
 </aside>
 
 <section class="middle" id="main-links">
@@ -56,6 +56,12 @@
 The Espruino web page also has nice collection of <a href="http://www.espruino.com/Tutorials">Tutorials</a>.</p>
 <h2 id="connecting-to-an-espruino">Connecting to an Espruino</h2>
 <p>Besides a command-line application and web IDE, you can connect to an Espruino with a serial interface. For this, download the terminal program <a href="https://www.gnu.org/software/screen/">screen (MacOS/Linux)</a>. </p>
+<h2 id="robots-with-espruino">Robots with Espruino</h2>
+<p>Gordon has built <a href="http://www.espruino.com/RobotPCB">some robots based on Espruino</a>. The parts for this robot incl. the board are around £20. Ask <a href="http://espruino.com">Gordon</a> for more information.</p>
+<p><img style="width: 350px" src="http://www.espruino.com/refimages/RobotPCB_robot.jpg" /></p>
+<p>For this robot, here is a 100% DIY version:</p>
+<p><img style="width: 350px" src="/images/espruino_bot.png"></p>
+<p>The Espruino does not support the computing power for image processing currently. But it is is possible to hook a <a href="http://www.espruino.com/ADNS5050">super hacky low res camera to an Espruino</a></p>
 </article>
 </section>
 

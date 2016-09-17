@@ -1,16 +1,17 @@
 # Chapter 6: Single board computers</h1> 
 
-## Specs
+
+## General Embedded Linux 
+
+Single board computers require the setup of an operating system. Most boards run the operating from an embedded flash memory (eMMC). A good resource to learn about embedded Linux is [Embedded Linux Wiki](http://elinux.org/Main_Page). There is also an IRC chat channel irc.freenode (#edev) to ask questions.
+
+## Network setup
+
+The main problem when dealing with an embedded Linux is setup of network and drivers. The main networks are Ethernet and Wifi:  
 
 <ul> 
     <li><a href="http://ethernethistory.typepad.com/papers/EthernetSpec.pdf">Ethernet</a></li> 
     <li><a href="https://en.wikipedia.org/wiki/IEEE_802.11">Wifi 802.11</a></li> 
-</ul> 
-
-## General Embedded Linux 
-<ul>
-<li><a href="http://elinux.org/Main_Page">Embedded Linux Wiki</a></li> 
-<li>irc.freenode: #edev</li> 
 </ul> 
 
 ## Raspberry Pi

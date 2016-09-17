@@ -1,5 +1,7 @@
 # Chapter 2: Blink with Arduino
 
+## Chapter Overview
+
 This chapters explains the basics of programming an Arduino with JavaScript. Arduino is popular for an easy getting started experience with an embedded device. Start here to find out about pins, analog and digital signals and firmware basics.
 
 ## Microcontrollers

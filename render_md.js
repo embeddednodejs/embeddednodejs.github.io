@@ -27,12 +27,12 @@ function renderPage(src, dest, track) {
 // ch1
 renderPage('content/ch_1.md',
            __dirname + '/static/worlds/index.html',
-           'worlds');
+           'connecting_worlds');
 
 // ch2
 renderPage('content/ch_2.md',
            __dirname + '/static/blinkarduino/index.html',
-           'arduino');
+           'blink_with_arduino');
  
 // ch3
 renderPage('content/ch_3.md',
@@ -82,8 +82,8 @@ renderPage('content/ch_12.md',
            
 // ch13
 renderPage('content/ch_13.md',
-           __dirname + '/static/wireless/index.html',
-           'wireless');
+           __dirname + '/static/bluetooth/index.html',
+           'bluetooth');
           
 // ch14
 renderPage('content/ch_14.md',

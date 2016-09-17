@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Node.js for Embedded Systems</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/main.css">
   <meta name="keywords" content="javascript,embedded,controllers,programmable,led,microcontroller,pcb,starter,kit,arduino,nano,mega,uno,led,bits,bytes">
   
   
@@ -19,7 +19,7 @@
   <nav>
     <ul>
       <li><a href="/">The Book</a></li>
-      <li><a class="active" href="/chapters.html">Chapters</a></li>
+      <li class="active">Chapters</li>
       <li><a href="https://github.com/embeddednodejs">Code Repository</a></li>
     </ul>
  
@@ -29,6 +29,26 @@
 
 </header>
 
+<aside id="toc"><ul>
+<h2>chapters</h2>
+<li><a href="/worlds">Connecting Worlds</a></li>
+<li><a href="/blinkarduino">Blink with Arduino</a></li>
+<li><a href="/espruino">Espruino</a></li>
+<li><a href="/tessel2">Tessel 2</a></li>
+<li><a href="/photon">Photon</a></li>
+<li><a href="/sbc">Single Board Computer</a></li>
+<li><a href="/components">Components</a></li>
+<li><a href="/libs">Node.js Libraries for Hardware</a></li>
+<li><a href="/http">Exploring Network Protocols</a></li>
+<li><a href="/webinterfaces">Web Interfaces</a></li>
+<li><a href="/nodebots">Making Robots with Node.js</a></li>
+<li><a href="/wireless">Wireless Data with Bluetooth</a></li>
+<li><a href="/toward">Toward the Physical Internet</a></li>
+<li><a href="/products">From Products to Toolkits</a></li>
+</ul>
+</aside>
+
+<section class="middle">
 <div class="center-text">
 <p>These links may be useful to get started with Node.js and embedded systems.</p>
 <p>You can submit links with an issue or a pull request to <a href="https://github.com/embeddednodejs/embeddednodejs.github.io">this code repository</a>.
@@ -38,6 +58,8 @@
 <div id="main-links">
 </div>
 
+
+</section>
 
 <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
 for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);

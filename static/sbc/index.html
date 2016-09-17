@@ -19,7 +19,6 @@
   <nav>
     <ul>
       <li><a href="/">The Book</a></li>
-      <li><a class="active" href="/chapters.html">Chapters</a></li>
       <li><a href="https://github.com/embeddednodejs">Code Repository</a></li>
     </ul>
  
@@ -30,7 +29,8 @@
 </header>
 
 
-<aside id="toc"><ul>
+<aside id="toc"><h1 id="chapters">Chapters</h1>
+<ol>
 <li><a href="/worlds">Connecting Worlds</a></li>
 <li><a href="/blinkarduino">Blink with Arduino</a></li>
 <li><a href="/espruino">Espruino</a></li>
@@ -42,24 +42,21 @@
 <li><a href="/http">Exploring Network Protocols</a></li>
 <li><a href="/webinterfaces">Web Interfaces</a></li>
 <li><a href="/nodebots">Making Robots with Node.js</a></li>
-<li><a href="/wireless">Wireless Data with Bluetooth</a></li>
+<li><a href="/bluetooth">Wireless Data with Bluetooth</a></li>
 <li><a href="/toward">Toward the Physical Internet</a></li>
 <li><a href="/products">From Products to Toolkits</a></li>
-</ul>
+</ol>
 </aside>
 
 <section class="middle" id="main-links">
    <article id ="links" class="overview chapter"><h1 id="chapter-6-single-board-computers-h1-">Chapter 6: Single board computers</h1></h1>
-<h2 id="specs">Specs</h2>
+<h2 id="general-embedded-linux">General Embedded Linux</h2>
+<p>Single board computers require the setup of an operating system. Most boards run the operating from an embedded flash memory (eMMC). A good resource to learn about embedded Linux is <a href="http://elinux.org/Main_Page">Embedded Linux Wiki</a>. There is also an IRC chat channel irc.freenode (#edev) to ask questions.</p>
+<h2 id="network-setup">Network setup</h2>
+<p>The main problem when dealing with an embedded Linux is setup of network and drivers. The main networks are Ethernet and Wifi:  </p>
 <ul> 
     <li><a href="http://ethernethistory.typepad.com/papers/EthernetSpec.pdf">Ethernet</a></li> 
     <li><a href="https://en.wikipedia.org/wiki/IEEE_802.11">Wifi 802.11</a></li> 
-</ul> 
-
-<h2 id="general-embedded-linux">General Embedded Linux</h2>
-<ul>
-<li><a href="http://elinux.org/Main_Page">Embedded Linux Wiki</a></li> 
-<li>irc.freenode: #edev</li> 
 </ul> 
 
 <h2 id="raspberry-pi">Raspberry Pi</h2>

@@ -19,7 +19,6 @@
   <nav>
     <ul>
       <li><a href="/">The Book</a></li>
-      <li><a class="active" href="/chapters.html">Chapters</a></li>
       <li><a href="https://github.com/embeddednodejs">Code Repository</a></li>
     </ul>
  
@@ -30,7 +29,8 @@
 </header>
 
 
-<aside id="toc"><ul>
+<aside id="toc"><h1 id="chapters">Chapters</h1>
+<ol>
 <li><a href="/worlds">Connecting Worlds</a></li>
 <li><a href="/blinkarduino">Blink with Arduino</a></li>
 <li><a href="/espruino">Espruino</a></li>
@@ -42,14 +42,15 @@
 <li><a href="/http">Exploring Network Protocols</a></li>
 <li><a href="/webinterfaces">Web Interfaces</a></li>
 <li><a href="/nodebots">Making Robots with Node.js</a></li>
-<li><a href="/wireless">Wireless Data with Bluetooth</a></li>
+<li><a href="/bluetooth">Wireless Data with Bluetooth</a></li>
 <li><a href="/toward">Toward the Physical Internet</a></li>
 <li><a href="/products">From Products to Toolkits</a></li>
-</ul>
+</ol>
 </aside>
 
 <section class="middle" id="main-links">
    <article id ="links" class="overview chapter"><h1 id="chapter-2-blink-with-arduino">Chapter 2: Blink with Arduino</h1>
+<h2 id="chapter-overview">Chapter Overview</h2>
 <p>This chapters explains the basics of programming an Arduino with JavaScript. Arduino is popular for an easy getting started experience with an embedded device. Start here to find out about pins, analog and digital signals and firmware basics.</p>
 <h2 id="microcontrollers">Microcontrollers</h2>
 <p>From web development perspective, first contact with a microcontroller can be daunting. Take a look at this talk <a href="https://vimeo.com/129003513">&quot;Between the layers of JavaScript hardware by Suz Hinton&quot;</a> for a nice introduction.</p>
@@ -76,7 +77,7 @@ for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElemen
 mixpanel.init("cd92beda435a863a4a96f8852e520f30");</script><!-- end Mixpanel -->
 
 
-<script id="track">mixpanel.track("arduino")</script>
+<script id="track">mixpanel.track("blink_with_arduino")</script>
 
 </body>
 </html>

@@ -19,7 +19,6 @@
   <nav>
     <ul>
       <li><a href="/">The Book</a></li>
-      <li><a class="active" href="/chapters.html">Chapters</a></li>
       <li><a href="https://github.com/embeddednodejs">Code Repository</a></li>
     </ul>
  
@@ -30,7 +29,8 @@
 </header>
 
 
-<aside id="toc"><ul>
+<aside id="toc"><h1 id="chapters">Chapters</h1>
+<ol>
 <li><a href="/worlds">Connecting Worlds</a></li>
 <li><a href="/blinkarduino">Blink with Arduino</a></li>
 <li><a href="/espruino">Espruino</a></li>
@@ -42,14 +42,20 @@
 <li><a href="/http">Exploring Network Protocols</a></li>
 <li><a href="/webinterfaces">Web Interfaces</a></li>
 <li><a href="/nodebots">Making Robots with Node.js</a></li>
-<li><a href="/wireless">Wireless Data with Bluetooth</a></li>
+<li><a href="/bluetooth">Wireless Data with Bluetooth</a></li>
 <li><a href="/toward">Toward the Physical Internet</a></li>
 <li><a href="/products">From Products to Toolkits</a></li>
-</ul>
+</ol>
 </aside>
 
 <section class="middle" id="main-links">
    <article id ="links" class="overview chapter"><h1 id="chapter-13-wireless-data-with-bluetooth">Chapter 13: Wireless Data with Bluetooth</h1>
+<p>Bluetooth offers a wireless link between devices. Devices can act either as central (similar to a server) or peripheral (similar to a client).</p>
+<p>The main libraries for JavaScript are:</p>
+<ul>
+<li>Noble</li>
+<li>Bleno</li>
+</ul>
 </article>
 </section>
 
@@ -66,7 +72,7 @@ for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElemen
 mixpanel.init("cd92beda435a863a4a96f8852e520f30");</script><!-- end Mixpanel -->
 
 
-<script id="track">mixpanel.track("wireless")</script>
+<script id="track">mixpanel.track("bluetooth")</script>
 
 </body>
 </html>

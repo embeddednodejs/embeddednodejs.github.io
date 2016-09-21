@@ -1,4 +1,35 @@
 {
   "name": "Chapter 13: Wireless Data with Bluetooth",
-  "resources": []
+  "resources": [
+    {
+      "name": "BLE network management for full-stack webapp development",
+      "links": [
+        {
+          "name": "ble-shepherd",
+          "link": "https://github.com/bluetoother/ble-shepherd"
+        },
+        {
+          "name": "cc-bnp: TI CC254X SoC driver",
+          "link": "https://github.com/bluetoother/cc-bnp"
+        }
+      ]
+    },
+    {
+        "name": "Build BLE gadgets with IPSO smart object data model",
+        "links": [
+          {
+            "name": "bipso",
+            "link": "http://bluetoother.github.io/bipso"
+          },
+          {
+            "name": "bipso packet generator and parser",
+            "link": "https://github.com/bluetoother/bipso"
+          },
+          {
+            "name": "IPSO Alliance technical archive",
+            "link": "http://www.ipso-alliance.org/ipso-community/resources/technical-archive/"
+          }
+        ]
+    }
+  ]
 }

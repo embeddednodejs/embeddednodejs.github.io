@@ -13,6 +13,11 @@ While the Particle boards are one of the first open-source hardware boards combi
      <li><a href="https://github.com/rwaldron/particle-io">Particle.io lib for Johanny-five</a></li> 
 </ul> 
 
+### Community
+
+* [community.particle.io](https://community.particle.io/t)
+* [reddit/r/particlephoton](https://www.reddit.com/r/particlephoton/)
+
 ## RedBear Labs  
 
 * [Forum](http://discuss.redbear.cc/)

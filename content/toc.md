@@ -1,5 +1,5 @@
 # Chapters
-1. [Connecting Worlds](/worlds)
+1. [Connecting Worlds](/js-on-hardware)
 2. [Blink with Arduino](/blinkarduino)
 3. [Espruino](/espruino)
 4. [Tessel 2](/tessel2)

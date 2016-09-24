@@ -1,4 +1,4 @@
-# Chapter 1: Connecting Worlds
+# Chapter 1: Connecting Worlds - JavaScript on Hardware
 
 This chapter shows the role of JavaScript as programming language for 'full-stack' IoT applications. General motivations for IoT as well as using JavaScript are discussed. Also, an introduction to Node.js and JavaScript is given.
 
@@ -29,3 +29,6 @@ Nice ideas to work with bits and bytes and JavaScript can be found for example h
 
 * Writing [Node.js Native Addons for C++](https://nodejs.org/api/addons.html)
 
+## Learning JavaScript
+
+* [JavaScript for Cats by Max Ogden](http://jsforcats.com/)

@@ -16,6 +16,8 @@ The main problem when dealing with an embedded Linux is setup of network and dri
 
 ## Raspberry Pi
 
+* [forum](https://www.raspberrypi.org/forums/)
+
 <ul> 
      <li><a href="https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions">Install Node.js on Debian based systems</a></li> 
      <li><a href="https://learn.adafruit.com/node-embedded-development/installing-node-dot-js">Installing Node.js</a></li> 
@@ -41,11 +43,13 @@ The main problem when dealing with an embedded Linux is setup of network and dri
 
 ## Intel Edison
 
+* [Forum Intel Edison](https://communities.intel.com/community/tech/edison)
+* [community](https://www.reddit.com/r/IntelEdison/)
+
 <ul> 
   <li><a href="http://fab-lab.eu/edison/">(Howto) Getting started with the board</a></li> 
           <li><a href="http://blog.farsinotare.com/2015/12/26/blinking-leds-with-edison/">(Howto) Blinking LEDs with the Edison</a></li> 
           <li><a href="http://www.microcasts.tv/edison/">(Pinout) Interactive Edison Pinout</a></li> 
-          <li><a href="https://communities.intel.com/community/tech/edison">(Community) Forum Intel Edison</a></li> 
           <li><a href="http://rwx.io/blog/2015/02/18/seting-up-an-edison/">(Howto) Setup Intel Edison</a></li> 
           <li><a href="https://github.com/w4ilun/edison-guides/wiki/Installing-Git-on-Intel-Edison">(Howto) Install Git on Edison</a></li> 
           <li><a href="https://downloadcenter.intel.com/download/25028">(Images) Download latest Yocto Image</a></li> 

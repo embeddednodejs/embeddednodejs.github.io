@@ -26,7 +26,7 @@ function renderPage(src, dest, track) {
 
 // ch1
 renderPage('content/ch_1.md',
-           __dirname + '/static/worlds/index.html',
+           __dirname + '/static/js-on-hardware/index.html',
            'connecting_worlds');
 
 // ch2

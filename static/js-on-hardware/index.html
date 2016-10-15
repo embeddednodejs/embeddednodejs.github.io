@@ -70,11 +70,22 @@ This is also the topic of a podcast <a href="https://www.oreilly.com/ideas/peter
 <li><p>Writing <a href="https://nodejs.org/api/addons.html">Node.js Native Addons for C++</a></p>
 </li>
 </ul>
-<h2 id="learning-javascript">Learning JavaScript</h2>
+<h2 id="learning-javascript-and-references">Learning JavaScript and References</h2>
 <ul>
 <li><a href="http://jsforcats.com/">JavaScript for Cats by Max Ogden</a></li>
+<li><a href="http://speakingjs.com">Speaking JavaScript</a> by Dr. Axel Rauschmayr</li>
+<li>JavaScript - The Definitive Guide by David Flanagan</li>
 </ul>
-</article>
+<h2 id="bits-and-bytes-in-javascript">Bits and Bytes in JavaScript</h2>
+<p>Convert hex to decimal with:</p>
+<pre><code>var num = 65794;
+hexString = num.toString(16);
+</code></pre><p>Convert decimal to hex with:</p>
+<pre><code>var num = parseInt(hexString, 16);
+</code></pre><p>Create a squence of bytes from a string to numbers, a nice trick is to use buffers:</p>
+<pre><code>var buf = new Buffer(&quot;deadbeaf&quot;, &quot;hex&quot;);
+console.log(buf.toString());
+</code></pre></article>
 </section>
 
 <section class="note">

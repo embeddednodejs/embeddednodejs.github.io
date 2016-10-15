@@ -18,6 +18,10 @@ An Arduino Uno is a relatively large and expensive. You can get smaller [Arduino
 
 To build basic circuits, you can get some [Grove header Nano](https://www.tindie.com/products/imrehg/grovehat-for-arduino-nano/) here.
 
+### how arduino compiles your sketch
+
+See [here](http://thinkingonthinking.com/an-arduino-sketch-from-scratch/)
+
 ## Firmata
 
 To work with Arduino and JavaScript, you can use the Firmata protocol. Details about the Firmata protocol can be found in the [repository @ github](https://github.com/firmata/protocol). Alternatively, you can work with a serial protocol, as discussed in the Arduino forum [Interfacing Arduino with other software - Forum Arduino](http://forum.arduino.cc/index.php?board=12.0).

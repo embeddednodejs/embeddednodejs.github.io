@@ -29,6 +29,27 @@ Nice ideas to work with bits and bytes and JavaScript can be found for example h
 
 * Writing [Node.js Native Addons for C++](https://nodejs.org/api/addons.html)
 
-## Learning JavaScript
+## Learning JavaScript and References
 
 * [JavaScript for Cats by Max Ogden](http://jsforcats.com/)
+* [Speaking JavaScript](http://speakingjs.com) by Dr. Axel Rauschmayr
+* JavaScript - The Definitive Guide by David Flanagan
+
+## Bits and Bytes in JavaScript
+
+Convert hex to decimal with:
+
+    var num = 65794;
+    hexString = num.toString(16);
+
+Convert decimal to hex with:
+
+    var num = parseInt(hexString, 16);
+
+
+Create a squence of bytes from a string to numbers, a nice trick is to use buffers:
+
+    var buf = new Buffer("deadbeaf", "hex");
+    console.log(buf.toString());
+
+

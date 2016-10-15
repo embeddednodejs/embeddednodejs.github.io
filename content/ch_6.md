@@ -5,15 +5,6 @@
 
 Single board computers require the setup of an operating system. Most boards run the operating from an embedded flash memory (eMMC). A good resource to learn about embedded Linux is [Embedded Linux Wiki](http://elinux.org/Main_Page). There is also an IRC chat channel irc.freenode (#edev) to ask questions.
 
-## Network setup
-
-The main problem when dealing with an embedded Linux is setup of network and drivers. The main networks are Ethernet and Wifi:  
-
-<ul> 
-    <li><a href="http://ethernethistory.typepad.com/papers/EthernetSpec.pdf">Ethernet</a></li> 
-    <li><a href="https://en.wikipedia.org/wiki/IEEE_802.11">Wifi 802.11</a></li> 
-</ul> 
-
 ## Raspberry Pi
 
 * [forum](https://www.raspberrypi.org/forums/)
@@ -61,4 +52,14 @@ The main problem when dealing with an embedded Linux is setup of network and dri
              <li><a href="http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide">GPIO Mapping on Intel Edison</a></li> 
                <li><a href="http://rexstjohn.com/configure-intel-edison-for-bluetooth-le-smart-development/">Configure Bluetooth</a></li> 
 </ul> 
- 
+
+# Upboard
+
+A good video for Windows how to install the Ubilinux OS on an Upboard is here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tc_G6ylXSxg" frameborder="0" allowfullscreen></iframe>
+
+
+For MacOS/Linux users you can use the dd command to copy the files. Similar to the video here:
+
+<iframe width="230" height="129" src="https://www.youtube.com/embed/xhZjpYQImck?t=1m50s" frameborder="0" allowfullscreen></iframe>

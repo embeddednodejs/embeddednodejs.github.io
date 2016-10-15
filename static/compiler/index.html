@@ -1,0 +1,71 @@
+<html>
+<head>
+  <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Assembler for simple register machine</title>
+   <link rel="stylesheet" href="css/main.css">
+   <meta name="keywords" content="javascript,jison,assembler,c,risc,registers,instructions,fpga,sequences,vhdl,verilog" />
+	<link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="container">
+	<h2>JavaScript assembler for a very simple register machine</h2>
+<p>
+In <a href="/">embeddednodejs.com</a>, we discuss the role of JavaScript for <a href="http://embeddednodejs.com/blinkarduino/">controling an Arduino</a>, to <a href="http://embeddednodejs.com/espruino/">run on Espruino</a> or <a href="http://embeddednodejs.com/sbc/">single-board computers</a>, and <a href="http://embeddednodejs.com/http/">to connect devices</a>.</br>
+
+Another possible role for JavaScript is to build compilers that run in a web browser. This can be done with parser tools such as <a href="https://github.com/zaach/jison">Jison (a Bison variant in JavaScript)</a> or <a href="https://github.com/cdglabs/ohm">Ohm</a>.</br>
+
+At this stage, the simple register machine and assembler can not be used for "production", but it might develop to a learning device for basic register machines, such as <a href="http://sites.tufts.edu/rodrego/">rodrego</a>. If anyone thinks this is useful for learning about <a href="https://en.wikipedia.org/wiki/Reduced_instruction_set_computing">RISC</a>, this would be interesting to know. Especially, it would be interesting to know how web technologies could support people who build register machines with VHDL, Verilog, FPGAs or instruction sets such as <a href="https://riscv.org/specifications/">OpenRisc</a> or <a href="http://www.lowrisc.org/">lowrisc</a>. </br> 
+
+You can find the basic source of the assembler at <a href="https://github.com/embeddednodejs/jisonexample">GitHub</a>. The Jison grammar is <a href="https://github.com/embeddednodejs/jisonexample/blob/master/asm1.y">here</a>.
+
+</p>
+
+	<p>
+	The machine has the following instructions:<br>
+	registers: r1, r2, r3, r4<br>
+	instructions: ld, add, st
+	</p>
+
+	<div class="left">
+		<h1>input</h1>
+		<textarea id="src">
+ld r1, 0x12  ; load 0x12 into r1
+add r1, r2   ;  add r1 and r2
+st r1         ;  store r1
+</textarea>
+		<button id="run">run</button>
+
+
+	</div>
+	<div class="right">
+		<h1>output</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>addr</th>
+					<th>word</th>
+				</tr>
+			</thead>
+
+			<tbody id="out">
+			</tbody>
+		</table>
+
+
+	</div>
+</div>
+
+<script src="bundle.js"></script>
+<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+	for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+		mixpanel.init("cd92beda435a863a4a96f8852e520f30");
+
+
+		mixpanel.track("compiler");</script>
+	<!-- end Mixpanel -->
+</body>
+
+
+</html>

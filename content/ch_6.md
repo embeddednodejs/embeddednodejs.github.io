@@ -7,35 +7,27 @@ Single board computers require the setup of an operating system. Most boards run
 
 ## Raspberry Pi
 
-* [forum](https://www.raspberrypi.org/forums/)
+The Raspberry Pi (RasPi or RPi) is one of the most popular single board computers. The community is interacting at the [forum](https://www.raspberrypi.org/forums/) or via the [/r/raspberry_pi](https://www.reddit.com/r/raspberry_pi/) reddit.
 
-<ul> 
-     <li><a href="https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions">Install Node.js on Debian based systems</a></li> 
-     <li><a href="https://learn.adafruit.com/node-embedded-development/installing-node-dot-js">Installing Node.js</a></li> 
-</ul> 
+To work with JavaScrpt on a Raspberry Pi you need to <a href="https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions">install an operating system such as Linux Debian </a>. Once you have an OS running, you can follow the steps to <a href="https://learn.adafruit.com/node-embedded-development/installing-node-dot-js">install Node.js</a>.
 
 ## OpenWRT 
 
-<ul> 
-    <li><a href="https://github.com/jxcore/jxcore/blob/master/doc/OpenWrt_Compile.md">Bundle JXcore for OpenWRT (ARM, mipsel) Memory: 16Mb+</a></li> 
-</ul> 
+OpenWRT is a popular operating system for network routers and also supports running Node.js.
+
+It is even possible to run a smaller Node.js version, such as <a href="https://github.com/jxcore/jxcore/blob/master/doc/OpenWrt_Compile.md">Bundle JXcore for OpenWRT (ARM, mipsel) with memory requirements of only 16Mb+</a>
 
 ## Beaglebone 
 
-<ul> 
-    <li><a href="http://elinux.org/Beagleboard:BoneScript">BoneScript overview</a></li> 
-</ul> 
+Beaglebone comes with BoneScript <a href="http://elinux.org/Beagleboard:BoneScript">BoneScript overview</a>. This prepares for JavaScript and IoT development.
 
-## Intel Galileo
+## Intel Edison/Galileo
 
-<ul> 
-     <li><a href="http://senzations.net/wp-content/uploads/2014/66/Senzations14-Gallileo-Advanced-Python.pdf">Galileo and Python - applies partly to Node.js</a></li> 
-</ul> 
+The Intel Edison is a computer on a module with a x86 compatible CPU. It has also a number of connectivity solutions out of the box.
 
-## Intel Edison
+To interact with Intel Edison community, a good place to start is the [forum Intel Edison](https://communities.intel.com/community/tech/edison). Also, you can find ideas for projects and ask questions at [reddit](https://www.reddit.com/r/IntelEdison/)
 
-* [Forum Intel Edison](https://communities.intel.com/community/tech/edison)
-* [community](https://www.reddit.com/r/IntelEdison/)
+To setup a board, a number of places are helpful:
 
 <ul> 
   <li><a href="http://fab-lab.eu/edison/">(Howto) Getting started with the board</a></li> 
@@ -52,6 +44,10 @@ Single board computers require the setup of an operating system. Most boards run
              <li><a href="http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide">GPIO Mapping on Intel Edison</a></li> 
                <li><a href="http://rexstjohn.com/configure-intel-edison-for-bluetooth-le-smart-development/">Configure Bluetooth</a></li> 
 </ul> 
+
+A good description how to install Node.js comes actually via Pyhton <li><a href="http://senzations.net/wp-content/uploads/2014/66/Senzations14-Gallileo-Advanced-Python.pdf">Galileo and Python</a>. This applies partly to Node.js too.
+
+
 
 # Upboard
 

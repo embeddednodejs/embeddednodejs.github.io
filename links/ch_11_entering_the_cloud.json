@@ -40,6 +40,10 @@
         {
           "name": "HiveMQ Broker",
           "link": "http://www.hivemq.com/try-out/"
+        },
+        {
+          "name": "Lightweight MQTT Machine Network",
+          "link": "http://lwmqn.github.io/"
         }
       ]
     },

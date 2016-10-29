@@ -26,4 +26,4 @@ See [here](http://thinkingonthinking.com/an-arduino-sketch-from-scratch/)
 
 To work with Arduino and JavaScript, you can use the Firmata protocol. Details about the Firmata protocol can be found in the [repository @ github](https://github.com/firmata/protocol). Alternatively, you can work with a serial protocol, as discussed in the Arduino forum [Interfacing Arduino with other software - Forum Arduino](http://forum.arduino.cc/index.php?board=12.0).
 
-
+With the Firmata protocol and JavaScript library, you are able to play with most examples from the Arduino IDE in JavaScript. For example, you can control multiple LEDs with a single pin as shown in this example: <a href="http://johnny-five.io/examples/expander-PCF8575/">Port Expander - PCF8575</a>.

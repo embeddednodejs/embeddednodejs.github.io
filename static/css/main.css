@@ -92,16 +92,13 @@ header {
   height: 130px;
   text-align: center;
   overflow: hidden; }
-  header h1 {
-    font-size: 50px; }
+  @media (min-width: 780px) {
+    header h1 {
+      font-size: 50px; } }
 
 nav {
   color: white;
   margin: 0 auto; }
-
-@media (min-width: 600px) {
-  nav {
-    width: 70%; } }
 
 nav ul {
   list-style: none; }
@@ -203,18 +200,27 @@ nav .contact li {
   z-index: 99999;
   text-align: center; }
 
-.middle {
-  min-width: 400px;
-  width: 80%;
-  float: left;
-  padding-left: 20px; }
+@media (min-width: 900px) {
+  .middle {
+    min-width: 100px;
+    width: 75%;
+    float: left;
+    padding-left: 20px; } }
+
+@media (max-width: 700px) {
+  .middle {
+    padding-left: 20px;
+    min-height: 400px; } }
 
 #toc {
   width: 200px;
   background-color: white;
   float: left; }
   #toc li {
-    list-decoration: none; }
+    list-decoration: none;
+    line-height: 24px; }
+  #toc h1 {
+    text-align: center; }
 
 .main-wrapper {
   padding: 50px;
@@ -225,9 +231,9 @@ nav .contact li {
     width: 800px;
     overflow: hidden; } }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   article {
-    width: 48%; } }
+    width: 88%; } }
 
 @media (max-width: 600px) {
   article {

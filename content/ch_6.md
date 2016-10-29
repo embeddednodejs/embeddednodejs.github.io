@@ -9,13 +9,18 @@ Single board computers require the setup of an operating system. Most boards run
 
 The Raspberry Pi (RasPi or RPi) is one of the most popular single board computers. The community is interacting at the [forum](https://www.raspberrypi.org/forums/) or via the [/r/raspberry_pi](https://www.reddit.com/r/raspberry_pi/) reddit.
 
-To work with JavaScrpt on a Raspberry Pi you need to <a href="https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions">install an operating system such as Linux Debian </a>. Once you have an OS running, you can follow the steps to <a href="https://learn.adafruit.com/node-embedded-development/installing-node-dot-js">install Node.js</a>.
+To work with JavaScrpt on a Raspberry Pi you need to <a href="https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions">install an operating system such as Raspbian - a Linux Debian distribution</a>. You can download [Raspbian from here](https://www.raspberrypi.org/downloads/raspbian/).
 
-## OpenWRT 
+Once you have an OS running, you can follow the steps to <a href="https://learn.adafruit.com/node-embedded-development/installing-node-dot-js">install Node.js</a>.
 
-OpenWRT is a popular operating system for network routers and also supports running Node.js.
+## Routers with OpenWRT 
 
-It is even possible to run a smaller Node.js version, such as <a href="https://github.com/jxcore/jxcore/blob/master/doc/OpenWrt_Compile.md">Bundle JXcore for OpenWRT (ARM, mipsel) with memory requirements of only 16Mb+</a>
+OpenWRT is a popular operating system for network routers and also supports running Node.js. And, system-on-chips from network routers are increasingly popular for IoT devices.
+
+Boards such as [Tessel 2](http://tessel.io/) come with OpenWRT and Node.js preinstalled. Also, there is the [Onion Omega](https://onion.io/), [ArduinoYun](https://www.arduino.cc/en/Main/ArduinoBoardYun), [LinkIt Smart](https://www.seeedstudio.com/LinkIt-Smart-7688-p-2573.html) and [most network routers](https://wiki.openwrt.org/doc/howto/generic.flashing) that run with OpenWRT.
+
+Besides [Node.js](https://wiki.openwrt.org/doc/howto/nodejs) for OpenWRT, it is possible to run a smaller Node.js version, such as <a href="https://github.com/jxcore/jxcore/blob/master/doc/OpenWrt_Compile.md">Bundle JXcore for OpenWRT (ARM, mipsel) with memory requirements of only 16Mb+</a>
+
 
 ## Beaglebone 
 

@@ -6,6 +6,7 @@ body {
   font: 500 14px/21px 'Helvetica Neue', Helvetica, Arials;
   background-color: #f8f8f8;
 }
+
 .main {
   min-height: 400px;
   background-color: #f8f8f8;
@@ -102,8 +103,11 @@ header {
   height: 130px;
   text-align: center;
   overflow: hidden;
-  h1 {
-    font-size: 50px;
+
+  @media (min-width: 780px) {
+    h1 {
+      font-size: 50px;
+    }
   }
 }
 
@@ -111,11 +115,7 @@ nav {
   color: white;
   margin: 0 auto;
 }
-@media (min-width: 600px) {
-  nav {
-    width: 70%;
-  }
-}
+
 nav ul {
   list-style: none;
 }
@@ -222,12 +222,22 @@ nav .contact li {
   text-align: center;
 }
 
+@media (min-width: 900px) {
 .middle {
-  min-width: 400px;
-  width: 80%;
+  min-width: 100px;
+  width: 75%;
   float: left;
   padding-left: 20px;
 }
+}
+
+@media (max-width: 700px) {
+.middle {
+  padding-left: 20px;
+  min-height: 400px;
+ }
+}
+
 
 #toc {
   width: 200px;
@@ -236,6 +246,12 @@ nav .contact li {
 
   li {
     list-decoration: none;
+    line-height: 24px;
+  }
+
+  h1 {
+    text-align: center;
+
   }
 }
 
@@ -249,11 +265,14 @@ nav .contact li {
     overflow: hidden;
   }
 }
-@media (min-width: 600px) {
+
+
+@media (min-width: 900px) {
   article {
-    width: 48%;
+    width: 88%;
   }
 }
+
 @media (max-width: 600px) {
   article {
     width: 100%;

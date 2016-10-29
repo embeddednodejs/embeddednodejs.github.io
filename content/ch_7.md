@@ -21,6 +21,8 @@ Note that you find the Grove head for the Arduino Nano here: <a href="https://ww
 
 For Arduino, you will find circuits as breakout boards and shiels such as: <a href="https://rheingoldheavy.com/i2c-and-spi-education-shield-functionality-overview/">I2C Education Shield</a>. With this shield, you get a temperature sensor, a real time clock and other components ready made for experimentation.
 
+Instead of buying, you can learn how to build your own break out boards. For this, learning a CAD program such as <a href="https://cadsoft.io/">Eagle</a> or <a href="http://kicad-pcb.org/download/">Kicad</a>. you can find ideas for circuits on sites such as <a href="http://www.schematics.com/">schematics.com</a>. 
+
 ## Shops 
 
 There are bunch of websites and shops for sourcing components from the internet.

@@ -36,6 +36,8 @@ Also, there is the [Arduino's Experimenters guide for Node.js](http://node-ardx.
 
 Another library to build network systems and robots is the [Cylon.js](http://cylonjs.com/) library.
 
+Cylon supports many different hardware boards via serial communication or Firmata. For example, you can see [a setup with a Linkit DUO](https://iamblue.gitbooks.io/linkit-smart-nodejs/content/en/basic/cylon.html).
+
 ## MRAA
 
 A good place to learn about JavaScript integration with lower level C or C++ code is the [MRAA lib](https://github.com/intel-iot-devkit/mraa). With this library, you also can control pins for PWM and communication with Node.js

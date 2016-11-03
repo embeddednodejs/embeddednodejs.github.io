@@ -4,7 +4,7 @@
 3. [Espruino](/espruino)
 4. [Tessel 2](/tessel2)
 5. [Photon](/photon)
-6. [Single Board Computer](/sbc)
+6. [Single Board Computers](/sbc)
 7. [Components](/components)
 8. [Node.js Libraries for Hardware](/libs)
 9. [Exploring Network Protocols](/http)

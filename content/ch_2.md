@@ -14,13 +14,15 @@ Microcontrollers are different from a microprocessor. To get a feeling for the i
 
 For many, Arduino is the first contact with a microcontroller. For this, [Pinouts for Arduino](http://www.pighixxx.com/test/pinoutspg/boards/#prettyPhoto) are helpful. 
 
-An Arduino Uno is a relatively large and expensive. You can get smaller [Arduino Pro Mini and smaller](http://blog.farsinotare.com/2015/11/08/arduino-pro-mini/) here. Also, the Arduino Nano is a nice board, and good collection of offers can be found [at mysensors.org](https://www.mysensors.org/store/#arduinos)
+Arduino boards come in all sizes and price ranges. An *Arduino Uno* is easy to handle without prior experience with electronics. You can get smaller [Arduino Pro Mini and smaller](http://blog.farsinotare.com/2015/11/08/arduino-pro-mini/) here. Also, the Arduino Nano is a nice board, and good collection of offers can be found [at mysensors.org](https://www.mysensors.org/store/#arduinos)
 
 To build basic circuits, you can get some [Grove header Nano](https://www.tindie.com/products/imrehg/grovehat-for-arduino-nano/) here.
 
-### how arduino compiles your sketch
+For people without prior Linux experience, an Arduino can also be a nice tool to explore the [Internet of Things](https://iamblue.gitbooks.io/linkit-smart-nodejs/content/en/edu/) as this discussion by the Smart Object team shows.
 
-See [here](http://thinkingonthinking.com/an-arduino-sketch-from-scratch/)
+### How arduino compiles your sketch
+
+The core software skills of Arduino relate to using a C++ compiler. You can setup the build toolchain yourself work with Arduino without IDE. For example, see [here how to compile an Arduino sketch from scratch](http://thinkingonthinking.com/an-arduino-sketch-from-scratch/).
 
 ## Firmata
 

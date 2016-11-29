@@ -44,3 +44,8 @@ A good place to learn about JavaScript integration with lower level C or C++ cod
 
 
 //www.npmjs.com/package/jsupm_joystick12
+
+## Fun with color walls and LEDs
+
+* [Node-pixel](https://github.com/ajfisher/node-pixel)
+* [Anypixel.js](https://googlecreativelab.github.io/anypixel/) 

@@ -50,7 +50,7 @@
 
 <section class="middle" id="main-links">
    <article id ="links" class="overview chapter"><h1 id="chapter-3-espruino">Chapter 3: Espruino</h1>
-<p>The Espruino project enables JavaScript for embedded development on multiple levels.</p>
+<p>The Espruino project enables JavaScript for embedded development on multiple levels. First, it provides a mini <a href="https://github.com/gfwilliams/EspruinoCompiler">JavaScript compiler</a> to allows to run JavaScript on a microcontroller. Second, Espruino is hardware that can be controlled from a web browser or the serial port.</p>
 <h2 id="espruino">Espruino</h2>
 <p>On the hardware side, the <a href="http://www.espruino.com/Pico">Espruino Pico</a> is an ineresting board to buy. You can follow the <a href="http://www.espruino.com/Quick+Start">Quick Start</a> instructions for a first feeling.
 The Espruino web page also has nice collection of <a href="http://www.espruino.com/Tutorials">Tutorials</a>.</p>
@@ -61,7 +61,11 @@ The Espruino web page also has nice collection of <a href="http://www.espruino.c
 <p><img style="width: 350px" src="http://www.espruino.com/refimages/RobotPCB_robot.jpg" /></p>
 <p>For this robot, here is a 100% DIY version:</p>
 <p><img style="width: 350px" src="/images/espruino_bot.png"></p>
-<p>The Espruino does not support the computing power for image processing currently. But it is is possible to hook a <a href="http://www.espruino.com/ADNS5050">super hacky low res camera to an Espruino</a></p>
+<p>The Espruino does not have the processing power to manipulate images currently. But it is is possible to hook a <a href="http://www.espruino.com/ADNS5050">super hacky low res camera to an Espruino</a></p>
+<h1 id="the-espruino-compiler">The Espruino Compiler</h1>
+<p>The <a href="http://www.espruino.com/Compilation">Espruino compiler</a>  is special in the sense that there is no bytecode in Espruino, but it executes JavaScript as it parses it. </p>
+<p>It is also possibly to run Assembler code out of JavaScript, as shown <a href="http://www.espruino.com/Assembler">here</a> and <a href="https://github.com/espruino/EspruinoTools/blob/gh-pages/plugins/assembler.js">here</a>.</p>
+<p>With this approach, it is possible to use real ARM assembly in your JS - it doesn&#39;t have 100% of the Thumb instructions, but is good enough for most things. </p>
 </article>
 </section>
 

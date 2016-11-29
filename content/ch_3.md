@@ -1,7 +1,6 @@
 # Chapter 3: Espruino
 
-The Espruino project enables JavaScript for embedded development on multiple levels.
-
+The Espruino project enables JavaScript for embedded development on multiple levels. First, it provides a mini [JavaScript compiler](https://github.com/gfwilliams/EspruinoCompiler) to allows to run JavaScript on a microcontroller. Second, Espruino is hardware that can be controlled from a web browser or the serial port.
 
 ## Espruino
 
@@ -22,5 +21,13 @@ For this robot, here is a 100% DIY version:
 
 <img style="width: 350px" src="/images/espruino_bot.png">
 
-The Espruino does not support the computing power for image processing currently. But it is is possible to hook a [super hacky low res camera to an Espruino](http://www.espruino.com/ADNS5050)
+The Espruino does not have the processing power to manipulate images currently. But it is is possible to hook a [super hacky low res camera to an Espruino](http://www.espruino.com/ADNS5050)
+
+# The Espruino Compiler
+
+The [Espruino compiler](http://www.espruino.com/Compilation)  is special in the sense that there is no bytecode in Espruino, but it executes JavaScript as it parses it. 
+
+It is also possibly to run Assembler code out of JavaScript, as shown [here](http://www.espruino.com/Assembler) and [here](https://github.com/espruino/EspruinoTools/blob/gh-pages/plugins/assembler.js).
+
+With this approach, it is possible to use real ARM assembly in your JS - it doesn't have 100% of the Thumb instructions, but is good enough for most things. 
 

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Node.js for Embedded Systems</title>
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/main.css">
   <meta name="keywords" content="javascript,embedded,controllers,programmable,led,microcontroller,pcb,starter,kit,arduino,nano,mega,uno,led,bits,bytes">
   
   
@@ -19,7 +19,6 @@
   <nav>
     <ul>
       <li><a href="/">The Book</a></li>
-      <li><a class="active" href="/chapters.html">Chapters</a></li>
       <li><a href="https://github.com/embeddednodejs">Code Repository</a></li>
     </ul>
  
@@ -29,48 +28,83 @@
 
 </header>
 
-<div class="center-text">
-<p>These links may be useful to get started with Node.js and embedded systems.</p>
-<p>You can submit links with an issue or a pull request to <a href="https://github.com/embeddednodejs/embeddednodejs.github.io">this code repository</a>.
-</div>
 
-<!-------- insert links here ----->
-<div id="main-links">
-  
-<article class="overview chapter">
- <h1 id="chapter-11-entering-the-cloud">Chapter 11: Entering the Cloud</h1> 
-  <p></p> 
-     <section class="addinfo">  
-    <h3>Publish-Subscribe Pattern  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="http://substack.net/roll_your_own_pubsub_with_dnode">PubSub pattern with DNode</a></li> 
-                             <li><a href="https://nodejs.org/api/events.html#events_emitter_emit_event_arg1_arg2">EventEmitter API docs</a></li> 
-                  </ul> 
-  </section>   
-     <section class="addinfo">  
-    <h3>MQTT  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="https://www.npmjs.com/package/mqtt">mqtt.js @npmjs.org</a></li> 
-                             <li><a href="http://mqtt.org/">MQTT website</a></li> 
-                             <li><a href="http://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqttv3r1.html">MQTT Protocol specification v3.1</a></li> 
-                             <li><a href="http://mosquitto.org/">Mosquitto library</a></li> 
-                             <li><a href="https://www.npmjs.com/package/mosca">Mosca</a></li> 
-                             <li><a href="http://www.hivemq.com/try-out/">HiveMQ Broker</a></li> 
-                  </ul> 
-  </section>   
-     <section class="addinfo">  
-    <h3>Cloud services  </h3>
-    <p></p> 
-    <ul> 
-                     <li><a href="https://github.com/pubnub/javascript">PubNub</a></li> 
-                             <li><a href="https://medium.com/@rssilva/talking-with-arduino-using-telegram-and-javascript-d874a0b560cb#.d7b2cg97q">PubSub with the Telegram Bot API</a></li> 
-                  </ul> 
-  </section>   
-    
+<aside id="toc"><h1 id="chapters">Chapters</h1>
+<ol>
+<li><a href="/js-on-hardware">Connecting Worlds</a></li>
+<li><a href="/blinkarduino">Blink with Arduino</a></li>
+<li><a href="/espruino">Espruino</a></li>
+<li><a href="/tessel2">Tessel 2</a></li>
+<li><a href="/photon">Photon</a></li>
+<li><a href="/sbc">Single Board Computers</a></li>
+<li><a href="/components">Components</a></li>
+<li><a href="/libs">Node.js Libraries for Hardware</a></li>
+<li><a href="/http">Exploring Network Protocols</a></li>
+<li><a href="/webinterfaces">Web Interfaces</a></li>
+<li><a href="/nodebots">Making Robots with Node.js</a></li>
+<li><a href="/bluetooth">Wireless Data with Bluetooth</a></li>
+<li><a href="/toward">Toward the Physical Internet</a></li>
+<li><a href="/products">From Products to Toolkits</a></li>
+</ol>
+</aside>
+
+<section class="middle" id="main-links">
+   <article id ="links" class="overview chapter"><h1 id="chapter-11-entering-the-cloud">Chapter 11: Entering the Cloud</h1>
+<p>This chapter shows how to move bytes and messages across networks. As a start the publish-subscribe pattern is reviewed where devices require a direct link to talk to each other.</p>
+<p>Then a message broker is used to remove the need for a sttic link between devices.</p>
+<h2 id="publish-subscribe-pattern">Publish-Subscribe Pattern</h2>
+<ul>
+<li><a href="http://substack.net/roll_your_own_pubsub_with_dnode">PubSub pattern with DNode</a></li>
+<li><a href="https://nodejs.org/api/events.html#events_emitter_emit_event_arg1_arg2">EventEmitter API docs</a></li>
+</ul>
+<h2 id="mqtt">MQTT</h2>
+<p>A good place to learn about <a href="http://mqtt.org">MQTT</a> is the <a href="http://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqtt-v3r1.html">MQTT Protocol specification v3.1</a>.</p>
+<p>MQTT messages have a 2 byte header which is much shorter than for examples headers in HTTP.  MQTT messages can have different types as indicated by the 4 Message Type bits.</p>
+<!--
+<table>
+<thead><tr><th>bit</th>
+<th>7</th>
+<th>6</th>
+<th>5</th>
+<th>4</th>
+<th>3</th>
+<th>2</th>
+<th>1</th>
+<th>0</th>
+</tr></thead>
+<tbody><tr>
+<td>byte 1</td>
+<td>Message Type</td>
+<td></td>
+<td></td>
+<td></td>
+
+
+</tr>
+<tr><td>byte 2</td></tr>
+</tbody>
+</table>
+-->
+<p>To work with  <a href="https://www.npmjs.com/package/mqtt">mqtt.js in Node.js</a>, the mqtt package is a good start.  A nice Node.js broker is <a href="https://www.npmjs.com/package/mosca">Mosca</a>.</p>
+<p>Some tools can help you debugging and exploring MQTT messages such as:</p>
+<ul>
+<li><a href="http://mosquitto.org/">Mosquitto library</a></li>
+<li><a href="http://www.hivemq.com/try-out/">HiveMQ Broker</a></li>
+</ul>
+<h2 id="cloud-services">Cloud services</h2>
+<ul>
+<li><a href="https://github.com/pubnub/javascript">PubNub</a></li>
+<li><a href="https://medium.com/@rssilva/talking-with-arduino-using-telegram-and-javascript-d874a0b560cb#.d7b2cg97q">PubSub with the Telegram Bot API</a></li>
+</ul>
 </article>
-</div>
+</section>
+
+<section class="note">
+<p>These links may be useful to get started with Node.js and embedded systems.</p>
+<p>If you find new links or broken links, <a href="https://github.com/embeddednodejs/embeddednodejs.github.io/issues">please let us know</a>.
+</p>
+</section>
+
 
 
 <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
@@ -78,9 +112,7 @@ for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElemen
 mixpanel.init("cd92beda435a863a4a96f8852e520f30");</script><!-- end Mixpanel -->
 
 
-<script>
-mixpanel.track("enteringcloud");
-</script>
+<script id="track">mixpanel.track("webintefaces")</script>
 
 </body>
 </html>

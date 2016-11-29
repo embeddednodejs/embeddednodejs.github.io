@@ -75,6 +75,11 @@ renderPage('content/ch_10.md',
            __dirname + '/static/webinterfaces/index.html',
            'webintefaces');
           
+// ch11
+renderPage('content/ch_11.md',
+           __dirname + '/static/enteringcloud/index.html',
+           'webintefaces');
+
 // ch12
 renderPage('content/ch_12.md',
            __dirname + '/static/nodebots/index.html',

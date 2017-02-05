@@ -15,25 +15,43 @@ Another nice start is discussed in this blog post [Building a Node.js weather st
 
 ## Projects and showcases
 
-In [Intel Edison project showcases (Japan)](http://edison-lab.jp/) several IoT projects can be found.
-
-## Node.js
-
-Nice ideas to work with bits and bytes and JavaScript can be found for example here: [Compare buffers in Node.js](http://stackoverflow.com/questions/30701220/how-to-compare-buffer-objects-in-nodejs). Buffers are important when it comes to working with [files](https://nodejs.org/api/fs.html).
+In [Intel Edison project showcases (Japan)](http://edison-lab.jp/) several IoT projects can be found. Also, sites such as [Hackster.io](https://www.hackster.io/) can help you find some inspirations.
 
 ## JavaScript runtime environments
+
+* [JerryScript](https://github.com/jerryscript-project/jerryscript) an ultraleightweight JavaScript engine for the Internet of Things
+
+* [Duktape](https://github.com/svaarala/duktape) an embeddable JavaScript engine
+
+* [Mininode](https://github.com/hypoalex/mininode) - A C project to implement a minimum Node.js runtime based on libuv and duktape
+
+* [mJS](https://mongoose-iot.com/blog/mjs-a-new-approach-to-embedded-scripting/)
+
+* [ChaiScript](https://github.com/ChaiScript/ChaiScript) A C++ project around a JavaScript inspired interpreter
 
 * The [JXcore project](https://github.com/jxcore/jxcore/) is a runtime hat is optimized for an embedded device. You can embed this JavaScript runtime in your own projects as shown here: [Basics of embedding JXcore](https://github.com/jxcore/jxcore/blob/master/doc/native/Embedding_Basics.md)
 
 * The project [Thali - Framework for connected devices](http://thaliproject.org/)
 
-* Writing [Node.js Native Addons for C++](https://nodejs.org/api/addons.html)
+* Writing [Node.js Native Addons in C++](https://nodejs.org/api/addons.html)
+
+## Community, bloggers and developers
+
+Some interesting bloggers and developers in the field of JavaScript and hardware are:
+
+* [Sayanee](https://talks.sayan.ee/)
+* [Suz Hinton](https://github.com/noopkat)
+* [Jacob Rosenthal](https://github.com/jacobrosenthal)
+
 
 ## Learning JavaScript and References
 
 * [JavaScript for Cats by Max Ogden](http://jsforcats.com/)
 * [Speaking JavaScript](http://speakingjs.com) by Dr. Axel Rauschmayr
-* JavaScript - The Definitive Guide by David Flanagan
+* [JavaScript - The Definitive Guide](http://shop.oreilly.com/product/9780596805531.do) by David Flanagan
+
+For hardware related programming, some nice ideas to work with bits and bytes and JavaScript can be found for example here: [Compare buffers in Node.js](http://stackoverflow.com/questions/30701220/how-to-compare-buffer-objects-in-nodejs). Buffers are important when it comes to working with [files](https://nodejs.org/api/fs.html).
+
 
 ## Bits and Bytes in JavaScript
 

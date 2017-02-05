@@ -39,14 +39,14 @@ To interact with Intel Edison community, a good place to start is the [forum Int
 To setup a board, a number of places are helpful:
 
 * <a href="http://fab-lab.eu/edison/">(Howto) Getting started with the board</a></li> 
-* <li><a href="http://blog.farsinotare.com/2015/12/26/blinking-leds-with-edison/">(Howto) Blinking LEDs with the Edison</a></li> 
+* <a href="http://blog.farsinotare.com/2015/12/26/blinking-leds-with-edison/">(Howto) Blinking LEDs with the Edison</a> 
 * <a href="http://www.microcasts.tv/edison/">(Pinout) Interactive Edison Pinout</a></li> 
 * <a href="http://rwx.io/blog/2015/02/18/seting-up-an-edison/">(Howto) Setup Intel Edison</a></li> 
-* <a href="https://github.com/w4ilun/edison-guides/wiki/Installing-Git-on-Intel-Edison">(Howto) Install Git on Edison</a></li> 
+* <a href="https://github.com/w4ilun/edison-guides/wiki/Installing-Git-on-Intel-Edison">(Howto) Install Git on Edison</a>
 * <a href="https://downloadcenter.intel.com/download/25028">(Images) Download latest Yocto Image</a></li> 
 * <a href="http://www.intel.com/support/edison/sb/CS-035262.htm">(Howto) Flash latest Yocto Image</a></li> 
-* <a href="http://www.i-programmer.info/programming/hardware/8744-exploring-edison-mraa-gpio.html">(Overview) GPIO mapping Mraa and SysFs</a></li> 
-                   <li><a href="http://rexstjohn.com/getting-wi-fi-with-intel-edison/">Wifi getting Started</a></li> 
+* <a href="http://www.i-programmer.info/programming/hardware/8744-exploring-edison-mraa-gpio.html">(Overview) GPIO mapping Mraa and SysFs</a>
+* <a href="http://rexstjohn.com/getting-wi-fi-with-intel-edison/">Wifi getting Started</a>
 * <a href="http://rwx.io/blog/2015/08/16/edison-wifi-config/">Tricks for Wifi config</a></li> 
 * <a href="http://hackaday.com/2015/04/01/a-stack-of-boards-for-an-edison-breadboard-adapter/">Breakout friendly Intel Edison</a></li> 
 * <a href="http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide">GPIO Mapping on Intel Edison</a></li> 
@@ -56,14 +56,21 @@ A good description how to install Node.js comes actually via Pyhton <li><a href=
 
 
 
-# Upboard
+# Upboard and similar with Embedded Linux
 
-A good video for Windows how to install the Ubilinux OS on an Upboard is here:
+A good video how to install the Ubilinux OS on an Upboard from Windows is here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Tc_G6ylXSxg" frameborder="0" allowfullscreen></iframe>
 
 
-For MacOS/Linux users you can use the dd command to copy the files. Similar to the video here:
+For MacOS/Linux users you can use the dd command to copy the files. After you insert a USB disk, you have to unmount it again, e.g. with:
+
+     # diskutil umount /dev/disk3
+
+Then, you need to copy a disk image. This can be done with the 'dd' command. Copying disk images takes a while. You can check the progress with http://unix.stackexchange.com/questions/11262/how-do-i-know-if-dd-is-still-working 
+
+
+Similar to the video here:
 
 <iframe width="230" height="129" src="https://www.youtube.com/embed/xhZjpYQImck?t=1m50s" frameborder="0" allowfullscreen></iframe>
 

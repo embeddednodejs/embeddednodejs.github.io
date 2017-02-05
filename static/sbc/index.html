@@ -69,26 +69,29 @@
 <p>To setup a board, a number of places are helpful:</p>
 <ul>
 <li><a href="http://fab-lab.eu/edison/">(Howto) Getting started with the board</a></li> </li>
-<li><li><a href="http://blog.farsinotare.com/2015/12/26/blinking-leds-with-edison/">(Howto) Blinking LEDs with the Edison</a></li> </li>
+<li><a href="http://blog.farsinotare.com/2015/12/26/blinking-leds-with-edison/">(Howto) Blinking LEDs with the Edison</a> </li>
 <li><a href="http://www.microcasts.tv/edison/">(Pinout) Interactive Edison Pinout</a></li> </li>
 <li><a href="http://rwx.io/blog/2015/02/18/seting-up-an-edison/">(Howto) Setup Intel Edison</a></li> </li>
-<li><a href="https://github.com/w4ilun/edison-guides/wiki/Installing-Git-on-Intel-Edison">(Howto) Install Git on Edison</a></li> </li>
+<li><a href="https://github.com/w4ilun/edison-guides/wiki/Installing-Git-on-Intel-Edison">(Howto) Install Git on Edison</a></li>
 <li><a href="https://downloadcenter.intel.com/download/25028">(Images) Download latest Yocto Image</a></li> </li>
 <li><a href="http://www.intel.com/support/edison/sb/CS-035262.htm">(Howto) Flash latest Yocto Image</a></li> </li>
-<li><a href="http://www.i-programmer.info/programming/hardware/8744-exploring-edison-mraa-gpio.html">(Overview) GPIO mapping Mraa and SysFs</a></li> <pre><code>             &lt;li&gt;&lt;a href=&quot;http://rexstjohn.com/getting-wi-fi-with-intel-edison/&quot;&gt;Wifi getting Started&lt;/a&gt;&lt;/li&gt; 
-</code></pre></li>
+<li><a href="http://www.i-programmer.info/programming/hardware/8744-exploring-edison-mraa-gpio.html">(Overview) GPIO mapping Mraa and SysFs</a></li>
+<li><a href="http://rexstjohn.com/getting-wi-fi-with-intel-edison/">Wifi getting Started</a></li>
 <li><a href="http://rwx.io/blog/2015/08/16/edison-wifi-config/">Tricks for Wifi config</a></li> </li>
 <li><a href="http://hackaday.com/2015/04/01/a-stack-of-boards-for-an-edison-breadboard-adapter/">Breakout friendly Intel Edison</a></li> </li>
 <li><a href="http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide">GPIO Mapping on Intel Edison</a></li> </li>
 <li><a href="http://rexstjohn.com/configure-intel-edison-for-bluetooth-le-smart-development/">Configure Bluetooth</a></li> </li>
 </ul>
 <p>A good description how to install Node.js comes actually via Pyhton <li><a href="http://senzations.net/wp-content/uploads/2014/66/Senzations14-Gallileo-Advanced-Python.pdf">Galileo and Python</a>. This applies partly to Node.js too.</p>
-<h1 id="upboard">Upboard</h1>
-<p>A good video for Windows how to install the Ubilinux OS on an Upboard is here:</p>
+<h1 id="upboard-and-similar-with-embedded-linux">Upboard and similar with Embedded Linux</h1>
+<p>A good video how to install the Ubilinux OS on an Upboard from Windows is here:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Tc_G6ylXSxg" frameborder="0" allowfullscreen></iframe>
 
 
-<p>For MacOS/Linux users you can use the dd command to copy the files. Similar to the video here:</p>
+<p>For MacOS/Linux users you can use the dd command to copy the files. After you insert a USB disk, you have to unmount it again, e.g. with:</p>
+<pre><code> # diskutil umount /dev/disk3
+</code></pre><p>Then, you need to copy a disk image. This can be done with the &#39;dd&#39; command. Copying disk images takes a while. You can check the progress with <a href="http://unix.stackexchange.com/questions/11262/how-do-i-know-if-dd-is-still-working">http://unix.stackexchange.com/questions/11262/how-do-i-know-if-dd-is-still-working</a> </p>
+<p>Similar to the video here:</p>
 <iframe width="230" height="129" src="https://www.youtube.com/embed/xhZjpYQImck?t=1m50s" frameborder="0" allowfullscreen></iframe>
 
 <h1 id="c-h-i-p">C.H.I.P</h1>

@@ -12,7 +12,7 @@ Microcontrollers are different from a microprocessor. To get a feeling for the i
 
 ## Arduino
 
-For many, Arduino is the first contact with a microcontroller. For this, [Pinouts for Arduino](http://www.pighixxx.com/test/pinoutspg/boards/#prettyPhoto) are helpful. 
+For many, Arduino is the first contact with a microcontroller. For this, [Pinouts for Arduino](http://www.pighixxx.com/test/pinoutspg/boards/#prettyPhoto) are helpful. Pinouts can be generated with JavaScript for example as [here](/pinouts/arduino_uno.html).
 
 Arduino boards come in all sizes and price ranges. An *Arduino Uno* is easy to handle without prior experience with electronics. You can get smaller [Arduino Pro Mini and smaller](http://blog.farsinotare.com/2015/11/08/arduino-pro-mini/) here. Also, the Arduino Nano is a nice board, and good collection of offers can be found [at mysensors.org](https://www.mysensors.org/store/#arduinos)
 

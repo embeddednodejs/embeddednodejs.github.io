@@ -5,6 +5,8 @@
 
 Single board computers require the setup of an operating system. Most boards run the operating from an embedded flash memory (eMMC). A good resource to learn about embedded Linux is [Embedded Linux Wiki](http://elinux.org/Main_Page). There is also an IRC chat channel irc.freenode (#edev) to ask questions.
 
+A good general forum to discuss single board computers is at reddit, such as [/r/linuxboards](https://www.reddit.com/r/linuxboards/) or [/r/embeddedlinux](https://www.reddit.com/r/embeddedlinux/).
+
 ## Raspberry Pi
 
 The Raspberry Pi (RasPi or RPi) is one of the most popular single board computers. The community is interacting at the [forum](https://www.raspberrypi.org/forums/) or via the [/r/raspberry_pi](https://www.reddit.com/r/raspberry_pi/) reddit.
@@ -55,8 +57,11 @@ To setup a board, a number of places are helpful:
 A good description how to install Node.js comes actually via Pyhton <li><a href="http://senzations.net/wp-content/uploads/2014/66/Senzations14-Gallileo-Advanced-Python.pdf">Galileo and Python</a>. This applies partly to Node.js too.
 
 
+# x86 based boards
 
-# Upboard and similar with Embedded Linux
+The Intel x86 architecture has built-in compatibility with larger x86 desktop PCs or laptops. This can have advantage for embedded projects too.
+
+## Upboard
 
 A good video how to install the Ubilinux OS on an Upboard from Windows is here:
 
@@ -73,6 +78,10 @@ Then, you need to copy a disk image. This can be done with the 'dd' command. Cop
 Similar to the video here:
 
 <iframe width="230" height="129" src="https://www.youtube.com/embed/xhZjpYQImck?t=1m50s" frameborder="0" allowfullscreen></iframe>
+
+## Minnowboard
+
+http://wiki.minnowboard.org/MinnowBoard_Turbot
 
 # C.H.I.P
 

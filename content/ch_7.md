@@ -46,3 +46,14 @@ To build setups with "custom" components, [tindie](tindie.com) can be interestin
 * A good forum to learn about PCB design is the [EEVblog forum](http://www.eevblog.com/forum/eda/?PHPSESSID=063c7a9e5e43800c1319b8bd7b63ab63)
 
 * A nice blog to learn about PCBs is from [Bunny Studios](https://www.bunniestudios.com/)
+
+# Sensors
+
+Sensors act as inputs to an embedded systems. Sensors can transport data in analog or digital form. Some sensor types are especially popular:
+
+## Temperature
+
+Temperature sensors can be good places to learn more on types and functions of sensors:
+
+* The [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf): This digital sensor transports temperature on 1 pin with a one-wire protocol. The sensor accuracy is around 0.5°C per bit.
+* Combination of [MAX6675](https://cdn-shop.adafruit.com/datasheets/MAX6675.pdf) and thermocouple: This device converts an analog signal from a thermogocuple into a digital signal that a microcontroller can use.

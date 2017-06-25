@@ -10,9 +10,13 @@
   font-weight: normal;
   font-style: normal; }
 
+html {
+  min-height: 100%; }
+
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font: 500 14px/21px 'Helvetica Neue', Helvetica, Arials;
   background-color: #f8f8f8; }
 
@@ -32,21 +36,27 @@ body {
     background: url("images/buch_ecke.png") no-repeat right top;
     min-height: 960px; } }
 
-.open {
-  font-size: 18px;
-  line-height: 22px;
+.infobar {
+  width: 300px;
+  float: left;
+  height: 100%;
+  min-height: 100%;
+  font-size: 12px;
+  line-height: 18px;
   color: black;
-  text-align: center;
-  margin: 15px;
-  background-color: #ffffcc;
+  text-align: left;
+  margin: 12px;
+  border: 1px solid gray;
   padding: 14px; }
-  .open a {
+  .infobar a {
     color: #004040; }
+  .infobar .right {
+    float: right; }
 
 .box {
-  width: 210px;
+  width: 192px;
   float: left;
-  height: 200px;
+  height: 192px;
   background-color: #ea88ff;
   margin: 8px;
   padding: 8px; }
@@ -58,6 +68,8 @@ body {
     text-decoration: none;
     padding-left: 4px;
     color: white; }
+  .box p {
+    clear: both; }
 
 .tessel {
   background-color: #f44f44; }
@@ -203,7 +215,7 @@ nav .contact li {
 @media (min-width: 900px) {
   .middle {
     min-width: 100px;
-    width: 75%;
+    width: 54%;
     float: left;
     padding-left: 20px; } }
 
@@ -213,7 +225,7 @@ nav .contact li {
     min-height: 400px; } }
 
 #toc {
-  width: 200px;
+  width: 222px;
   background-color: white;
   float: left; }
   #toc li {
@@ -406,11 +418,11 @@ footer .sales a:visited {
 .lastword a:visited {
   color: #0b0b05; }
 
-.start {
+.chaptersindex {
   padding-top: 20px;
-  clear: both;
   margin: 0 auto;
-  width: 84%; }
+  width: 72%;
+  float: right; }
 
 @media (min-width: 600px) {
   .start {
